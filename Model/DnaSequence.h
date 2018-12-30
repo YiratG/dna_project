@@ -4,7 +4,7 @@
 #include "IDna.h"
 
 
-class DnaSequence:IDna
+class DnaSequence:public IDna
 {
 public:
 
@@ -15,14 +15,14 @@ public:
     DnaSequence(const DnaSequence& other);
     ~DnaSequence();
 
-    IDna& operator=(const IDna& other);
-    IDna& operator=(const char* s);
-    IDna& operator=(const string & s);
+    DnaSequence& operator=(const DnaSequence& other);
+    DnaSequence& operator=(const char* s);
+    DnaSequence& operator=(const string & s);
 
-    bool operator==(const IDna& other) const;
+    bool operator==(const DnaSequence& other) const;
     bool operator==(const char* s) const;
     bool operator==(const string & s) const;
-    bool operator!=(const IDna& other) const;
+    bool operator!=(const DnaSequence& other) const;
     bool operator!=(const char* s) const;
     bool operator!=(const string & s) const;
     Nucleotide& operator[](size_t i);

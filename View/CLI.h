@@ -1,17 +1,13 @@
 #ifndef DNA_CLI_H
 #define DNA_CLI_H
 
-#include "../Controller/Executable.h"
-#include "../Controller/Parser.h"
-
+#include <string>
 
 class CLI
-
+{
 public:
-    void run();
+    std::string getInput();
 private:
-    Executable ex;
-    Parser ps;
 };
 
 

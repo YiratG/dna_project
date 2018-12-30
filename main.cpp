@@ -47,19 +47,19 @@ void TestSlice() {
     }
 }
 
-void TestPair() {
-    cout << "test pair " << endl;
-    try {
-        DnaSequence ds("AAAGGGTTTCCC");
-        DnaSequence pa;
-        pa = ds.pair();
-        cout << "original: " << ds << endl;
-        cout << "pair: " << pa << endl;
-    }
-    catch (const char *ex) {
-        cout << ex << endl;
-    }
-}
+//void TestPair() {
+//    cout << "test pair " << endl;
+//    try {
+//        DnaSequence ds("AAAGGGTTTCCC");
+//        DnaSequence pa;
+//        pa = ds.pair();
+//        cout << "original: " << ds << endl;
+//        cout << "pair: " << pa << endl;
+//    }
+//    catch (const char *ex) {
+//        cout << ex << endl;
+//    }
+//}
 
 void TesFileReading() {
     cout << "test read from file " << endl;

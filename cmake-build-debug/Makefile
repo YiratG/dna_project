@@ -48,10 +48,10 @@ RM = /home/yirat/Downloads/clion-2018.2.5/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yirat/Documents/DNA
+CMAKE_SOURCE_DIR = /home/yirat/Documents/excellenteam-ella-c-dna-YiratG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yirat/Documents/DNA/cmake-build-debug
+CMAKE_BINARY_DIR = /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yirat/Documents/DNA/cmake-build-debug/CMakeFiles /home/yirat/Documents/DNA/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yirat/Documents/DNA/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,113 +123,329 @@ DNA/fast:
 	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/build
 .PHONY : DNA/fast
 
-DnaReader.o: DnaReader.cpp.o
+Controller/Executable.o: Controller/Executable.cpp.o
 
-.PHONY : DnaReader.o
-
-# target to build an object file
-DnaReader.cpp.o:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/DnaReader.cpp.o
-.PHONY : DnaReader.cpp.o
-
-DnaReader.i: DnaReader.cpp.i
-
-.PHONY : DnaReader.i
-
-# target to preprocess a source file
-DnaReader.cpp.i:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/DnaReader.cpp.i
-.PHONY : DnaReader.cpp.i
-
-DnaReader.s: DnaReader.cpp.s
-
-.PHONY : DnaReader.s
-
-# target to generate assembly for a file
-DnaReader.cpp.s:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/DnaReader.cpp.s
-.PHONY : DnaReader.cpp.s
-
-DnaSequence.o: DnaSequence.cpp.o
-
-.PHONY : DnaSequence.o
+.PHONY : Controller/Executable.o
 
 # target to build an object file
-DnaSequence.cpp.o:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/DnaSequence.cpp.o
-.PHONY : DnaSequence.cpp.o
+Controller/Executable.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/Executable.cpp.o
+.PHONY : Controller/Executable.cpp.o
 
-DnaSequence.i: DnaSequence.cpp.i
+Controller/Executable.i: Controller/Executable.cpp.i
 
-.PHONY : DnaSequence.i
+.PHONY : Controller/Executable.i
 
 # target to preprocess a source file
-DnaSequence.cpp.i:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/DnaSequence.cpp.i
-.PHONY : DnaSequence.cpp.i
+Controller/Executable.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/Executable.cpp.i
+.PHONY : Controller/Executable.cpp.i
 
-DnaSequence.s: DnaSequence.cpp.s
+Controller/Executable.s: Controller/Executable.cpp.s
 
-.PHONY : DnaSequence.s
+.PHONY : Controller/Executable.s
 
 # target to generate assembly for a file
-DnaSequence.cpp.s:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/DnaSequence.cpp.s
-.PHONY : DnaSequence.cpp.s
+Controller/Executable.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/Executable.cpp.s
+.PHONY : Controller/Executable.cpp.s
 
-DnaWriter.o: DnaWriter.cpp.o
+Controller/ICmd.o: Controller/ICmd.cpp.o
 
-.PHONY : DnaWriter.o
+.PHONY : Controller/ICmd.o
 
 # target to build an object file
-DnaWriter.cpp.o:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/DnaWriter.cpp.o
-.PHONY : DnaWriter.cpp.o
+Controller/ICmd.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/ICmd.cpp.o
+.PHONY : Controller/ICmd.cpp.o
 
-DnaWriter.i: DnaWriter.cpp.i
+Controller/ICmd.i: Controller/ICmd.cpp.i
 
-.PHONY : DnaWriter.i
+.PHONY : Controller/ICmd.i
 
 # target to preprocess a source file
-DnaWriter.cpp.i:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/DnaWriter.cpp.i
-.PHONY : DnaWriter.cpp.i
+Controller/ICmd.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/ICmd.cpp.i
+.PHONY : Controller/ICmd.cpp.i
 
-DnaWriter.s: DnaWriter.cpp.s
+Controller/ICmd.s: Controller/ICmd.cpp.s
 
-.PHONY : DnaWriter.s
+.PHONY : Controller/ICmd.s
 
 # target to generate assembly for a file
-DnaWriter.cpp.s:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/DnaWriter.cpp.s
-.PHONY : DnaWriter.cpp.s
+Controller/ICmd.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/ICmd.cpp.s
+.PHONY : Controller/ICmd.cpp.s
 
-Nucleotide.o: Nucleotide.cpp.o
+Controller/newCmd.o: Controller/newCmd.cpp.o
 
-.PHONY : Nucleotide.o
+.PHONY : Controller/newCmd.o
 
 # target to build an object file
-Nucleotide.cpp.o:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Nucleotide.cpp.o
-.PHONY : Nucleotide.cpp.o
+Controller/newCmd.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/newCmd.cpp.o
+.PHONY : Controller/newCmd.cpp.o
 
-Nucleotide.i: Nucleotide.cpp.i
+Controller/newCmd.i: Controller/newCmd.cpp.i
 
-.PHONY : Nucleotide.i
+.PHONY : Controller/newCmd.i
 
 # target to preprocess a source file
-Nucleotide.cpp.i:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Nucleotide.cpp.i
-.PHONY : Nucleotide.cpp.i
+Controller/newCmd.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/newCmd.cpp.i
+.PHONY : Controller/newCmd.cpp.i
 
-Nucleotide.s: Nucleotide.cpp.s
+Controller/newCmd.s: Controller/newCmd.cpp.s
 
-.PHONY : Nucleotide.s
+.PHONY : Controller/newCmd.s
 
 # target to generate assembly for a file
-Nucleotide.cpp.s:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Nucleotide.cpp.s
-.PHONY : Nucleotide.cpp.s
+Controller/newCmd.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/newCmd.cpp.s
+.PHONY : Controller/newCmd.cpp.s
+
+Model/AddMotation.o: Model/AddMotation.cpp.o
+
+.PHONY : Model/AddMotation.o
+
+# target to build an object file
+Model/AddMotation.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/AddMotation.cpp.o
+.PHONY : Model/AddMotation.cpp.o
+
+Model/AddMotation.i: Model/AddMotation.cpp.i
+
+.PHONY : Model/AddMotation.i
+
+# target to preprocess a source file
+Model/AddMotation.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/AddMotation.cpp.i
+.PHONY : Model/AddMotation.cpp.i
+
+Model/AddMotation.s: Model/AddMotation.cpp.s
+
+.PHONY : Model/AddMotation.s
+
+# target to generate assembly for a file
+Model/AddMotation.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/AddMotation.cpp.s
+.PHONY : Model/AddMotation.cpp.s
+
+Model/DataCollection.o: Model/DataCollection.cpp.o
+
+.PHONY : Model/DataCollection.o
+
+# target to build an object file
+Model/DataCollection.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DataCollection.cpp.o
+.PHONY : Model/DataCollection.cpp.o
+
+Model/DataCollection.i: Model/DataCollection.cpp.i
+
+.PHONY : Model/DataCollection.i
+
+# target to preprocess a source file
+Model/DataCollection.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DataCollection.cpp.i
+.PHONY : Model/DataCollection.cpp.i
+
+Model/DataCollection.s: Model/DataCollection.cpp.s
+
+.PHONY : Model/DataCollection.s
+
+# target to generate assembly for a file
+Model/DataCollection.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DataCollection.cpp.s
+.PHONY : Model/DataCollection.cpp.s
+
+Model/DnaMetaData.o: Model/DnaMetaData.cpp.o
+
+.PHONY : Model/DnaMetaData.o
+
+# target to build an object file
+Model/DnaMetaData.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o
+.PHONY : Model/DnaMetaData.cpp.o
+
+Model/DnaMetaData.i: Model/DnaMetaData.cpp.i
+
+.PHONY : Model/DnaMetaData.i
+
+# target to preprocess a source file
+Model/DnaMetaData.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.i
+.PHONY : Model/DnaMetaData.cpp.i
+
+Model/DnaMetaData.s: Model/DnaMetaData.cpp.s
+
+.PHONY : Model/DnaMetaData.s
+
+# target to generate assembly for a file
+Model/DnaMetaData.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.s
+.PHONY : Model/DnaMetaData.cpp.s
+
+Model/DnaReader.o: Model/DnaReader.cpp.o
+
+.PHONY : Model/DnaReader.o
+
+# target to build an object file
+Model/DnaReader.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaReader.cpp.o
+.PHONY : Model/DnaReader.cpp.o
+
+Model/DnaReader.i: Model/DnaReader.cpp.i
+
+.PHONY : Model/DnaReader.i
+
+# target to preprocess a source file
+Model/DnaReader.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaReader.cpp.i
+.PHONY : Model/DnaReader.cpp.i
+
+Model/DnaReader.s: Model/DnaReader.cpp.s
+
+.PHONY : Model/DnaReader.s
+
+# target to generate assembly for a file
+Model/DnaReader.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaReader.cpp.s
+.PHONY : Model/DnaReader.cpp.s
+
+Model/DnaSequence.o: Model/DnaSequence.cpp.o
+
+.PHONY : Model/DnaSequence.o
+
+# target to build an object file
+Model/DnaSequence.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaSequence.cpp.o
+.PHONY : Model/DnaSequence.cpp.o
+
+Model/DnaSequence.i: Model/DnaSequence.cpp.i
+
+.PHONY : Model/DnaSequence.i
+
+# target to preprocess a source file
+Model/DnaSequence.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaSequence.cpp.i
+.PHONY : Model/DnaSequence.cpp.i
+
+Model/DnaSequence.s: Model/DnaSequence.cpp.s
+
+.PHONY : Model/DnaSequence.s
+
+# target to generate assembly for a file
+Model/DnaSequence.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaSequence.cpp.s
+.PHONY : Model/DnaSequence.cpp.s
+
+Model/DnaWriter.o: Model/DnaWriter.cpp.o
+
+.PHONY : Model/DnaWriter.o
+
+# target to build an object file
+Model/DnaWriter.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaWriter.cpp.o
+.PHONY : Model/DnaWriter.cpp.o
+
+Model/DnaWriter.i: Model/DnaWriter.cpp.i
+
+.PHONY : Model/DnaWriter.i
+
+# target to preprocess a source file
+Model/DnaWriter.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaWriter.cpp.i
+.PHONY : Model/DnaWriter.cpp.i
+
+Model/DnaWriter.s: Model/DnaWriter.cpp.s
+
+.PHONY : Model/DnaWriter.s
+
+# target to generate assembly for a file
+Model/DnaWriter.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaWriter.cpp.s
+.PHONY : Model/DnaWriter.cpp.s
+
+Model/Nucleotide.o: Model/Nucleotide.cpp.o
+
+.PHONY : Model/Nucleotide.o
+
+# target to build an object file
+Model/Nucleotide.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/Nucleotide.cpp.o
+.PHONY : Model/Nucleotide.cpp.o
+
+Model/Nucleotide.i: Model/Nucleotide.cpp.i
+
+.PHONY : Model/Nucleotide.i
+
+# target to preprocess a source file
+Model/Nucleotide.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/Nucleotide.cpp.i
+.PHONY : Model/Nucleotide.cpp.i
+
+Model/Nucleotide.s: Model/Nucleotide.cpp.s
+
+.PHONY : Model/Nucleotide.s
+
+# target to generate assembly for a file
+Model/Nucleotide.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/Nucleotide.cpp.s
+.PHONY : Model/Nucleotide.cpp.s
+
+View/CLI.o: View/CLI.cpp.o
+
+.PHONY : View/CLI.o
+
+# target to build an object file
+View/CLI.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/View/CLI.cpp.o
+.PHONY : View/CLI.cpp.o
+
+View/CLI.i: View/CLI.cpp.i
+
+.PHONY : View/CLI.i
+
+# target to preprocess a source file
+View/CLI.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/View/CLI.cpp.i
+.PHONY : View/CLI.cpp.i
+
+View/CLI.s: View/CLI.cpp.s
+
+.PHONY : View/CLI.s
+
+# target to generate assembly for a file
+View/CLI.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/View/CLI.cpp.s
+.PHONY : View/CLI.cpp.s
+
+View/Parser.o: View/Parser.cpp.o
+
+.PHONY : View/Parser.o
+
+# target to build an object file
+View/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/View/Parser.cpp.o
+.PHONY : View/Parser.cpp.o
+
+View/Parser.i: View/Parser.cpp.i
+
+.PHONY : View/Parser.i
+
+# target to preprocess a source file
+View/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/View/Parser.cpp.i
+.PHONY : View/Parser.cpp.i
+
+View/Parser.s: View/Parser.cpp.s
+
+.PHONY : View/Parser.s
+
+# target to generate assembly for a file
+View/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/View/Parser.cpp.s
+.PHONY : View/Parser.cpp.s
 
 main.o: main.cpp.o
 
@@ -267,18 +483,42 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DNA"
-	@echo "... DnaReader.o"
-	@echo "... DnaReader.i"
-	@echo "... DnaReader.s"
-	@echo "... DnaSequence.o"
-	@echo "... DnaSequence.i"
-	@echo "... DnaSequence.s"
-	@echo "... DnaWriter.o"
-	@echo "... DnaWriter.i"
-	@echo "... DnaWriter.s"
-	@echo "... Nucleotide.o"
-	@echo "... Nucleotide.i"
-	@echo "... Nucleotide.s"
+	@echo "... Controller/Executable.o"
+	@echo "... Controller/Executable.i"
+	@echo "... Controller/Executable.s"
+	@echo "... Controller/ICmd.o"
+	@echo "... Controller/ICmd.i"
+	@echo "... Controller/ICmd.s"
+	@echo "... Controller/newCmd.o"
+	@echo "... Controller/newCmd.i"
+	@echo "... Controller/newCmd.s"
+	@echo "... Model/AddMotation.o"
+	@echo "... Model/AddMotation.i"
+	@echo "... Model/AddMotation.s"
+	@echo "... Model/DataCollection.o"
+	@echo "... Model/DataCollection.i"
+	@echo "... Model/DataCollection.s"
+	@echo "... Model/DnaMetaData.o"
+	@echo "... Model/DnaMetaData.i"
+	@echo "... Model/DnaMetaData.s"
+	@echo "... Model/DnaReader.o"
+	@echo "... Model/DnaReader.i"
+	@echo "... Model/DnaReader.s"
+	@echo "... Model/DnaSequence.o"
+	@echo "... Model/DnaSequence.i"
+	@echo "... Model/DnaSequence.s"
+	@echo "... Model/DnaWriter.o"
+	@echo "... Model/DnaWriter.i"
+	@echo "... Model/DnaWriter.s"
+	@echo "... Model/Nucleotide.o"
+	@echo "... Model/Nucleotide.i"
+	@echo "... Model/Nucleotide.s"
+	@echo "... View/CLI.o"
+	@echo "... View/CLI.i"
+	@echo "... View/CLI.s"
+	@echo "... View/Parser.o"
+	@echo "... View/Parser.i"
+	@echo "... View/Parser.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
