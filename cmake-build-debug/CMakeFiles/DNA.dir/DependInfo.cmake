@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/Executable.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Controller/Executable.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Controller/ICmd.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/newCmd.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Controller/newCmd.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/AddMotation.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/AddMotation.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DataCollection.cpp.o"
-  "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaMetaData.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o"
+  "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaReader.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaSequence.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaWriter.cpp.o"

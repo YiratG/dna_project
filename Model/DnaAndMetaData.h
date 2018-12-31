@@ -5,13 +5,19 @@
 #include "../usesLibraries/SharedPtr.h"
 #include "IDna.h"
 
-class DnaMetaData
+class DnaAndMetaData
 {
+public:
+    DnaAndMetaData(size_t id, std::string name, SharedPtr<IDna> DnaSeq,char staus ='o');
+    size_t getId();
+
+
 private:
     size_t m_id;
     std::string m_name;
-    char m_status;
     SharedPtr<IDna> m_dnaSeq;
+    char m_status;
+
 
 };
 

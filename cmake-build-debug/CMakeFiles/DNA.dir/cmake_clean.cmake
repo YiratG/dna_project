@@ -11,7 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DNA.dir/Controller/ICmd.cpp.o"
   "CMakeFiles/DNA.dir/Controller/newCmd.cpp.o"
   "CMakeFiles/DNA.dir/Model/DataCollection.cpp.o"
-  "CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o"
+  "CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o"
+  "CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o"
   "DNA.pdb"
   "DNA"
 )

@@ -1,8 +1,11 @@
 #include "Executable.h"
+#include "CmdFactory.h"
 
 void Executable::run()
 {
-    std::string s = cli.getInput();
-    std::vector<std::string> v = p.parsing(s);
+     s = cli.getInput();
+     v = p.parsing(s);
+    (CmdFactory::getCmd(v[0]))->runCmd(dc,v);
+
 
 }

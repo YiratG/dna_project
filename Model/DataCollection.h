@@ -3,15 +3,25 @@
 
 
 #include "../usesLibraries/SharedPtr.h"
+#include "../Model/DnaAndMetaData.h"
+#include <map>
 #include "IDna.h"
 
 class DataCollection
 {
 public:
-    void addDna(SharedPtr<IDna> d);
-private:
-    SharedPtr<IDna> *col;
+    DataCollection();
+    size_t getIncNum();
+    void addDna(SharedPtr<DnaAndMetaData> d);
+    bool isNameAlreadyUsed(string name);
+    bool isIDAlreadyUsed(size_t id);
+    void deleteDna(string name);
+    void deleteDna(size_t id);
 
+private:
+    std::map<string,SharedPtr<DnaAndMetaData> >dataByName;
+    std::map<size_t ,SharedPtr<DnaAndMetaData> >dataById;
+    size_t inc_number;
 };
 
 

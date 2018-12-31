@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.cpp">
+			<Option target="DNA"/>
+		</Unit>
 		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.h">
 			<Option target="DNA"/>
 		</Unit>
@@ -117,10 +120,10 @@
 		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h">
 			<Option target="DNA"/>
 		</Unit>
-		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaMetaData.cpp">
+		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.cpp">
 			<Option target="DNA"/>
 		</Unit>
-		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaMetaData.h">
+		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.h">
 			<Option target="DNA"/>
 		</Unit>
 		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.cpp">

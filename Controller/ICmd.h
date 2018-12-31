@@ -8,9 +8,10 @@
 
 class ICmd
 {
+public:
     virtual SharedPtr<ICmd> create()=0;
     virtual void help()=0;
-    virtual void runCmd(DataCollection* dnasData,std::vector<std::string> )=0;
+    virtual void runCmd(SharedPtr<DataCollection> dnasData,std::vector<std::string> )=0;
 
 };
 

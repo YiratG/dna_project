@@ -18,8 +18,7 @@ public:
      Nucleotide& operator[](size_t i);
 
      size_t get_length() const;
-     IDna get_slice(size_t from, size_t to);
-     IDna pair();
+//     IDna get_slice(size_t from, size_t to);
      void readFromFile(const char * fileName);
      void WriteToFile(const char *fileName);
     

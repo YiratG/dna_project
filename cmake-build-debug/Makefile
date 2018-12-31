@@ -123,6 +123,33 @@ DNA/fast:
 	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/build
 .PHONY : DNA/fast
 
+Controller/CmdFactory.o: Controller/CmdFactory.cpp.o
+
+.PHONY : Controller/CmdFactory.o
+
+# target to build an object file
+Controller/CmdFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o
+.PHONY : Controller/CmdFactory.cpp.o
+
+Controller/CmdFactory.i: Controller/CmdFactory.cpp.i
+
+.PHONY : Controller/CmdFactory.i
+
+# target to preprocess a source file
+Controller/CmdFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.i
+.PHONY : Controller/CmdFactory.cpp.i
+
+Controller/CmdFactory.s: Controller/CmdFactory.cpp.s
+
+.PHONY : Controller/CmdFactory.s
+
+# target to generate assembly for a file
+Controller/CmdFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.s
+.PHONY : Controller/CmdFactory.cpp.s
+
 Controller/Executable.o: Controller/Executable.cpp.o
 
 .PHONY : Controller/Executable.o
@@ -258,32 +285,32 @@ Model/DataCollection.cpp.s:
 	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DataCollection.cpp.s
 .PHONY : Model/DataCollection.cpp.s
 
-Model/DnaMetaData.o: Model/DnaMetaData.cpp.o
+Model/DnaAndMetaData.o: Model/DnaAndMetaData.cpp.o
 
-.PHONY : Model/DnaMetaData.o
+.PHONY : Model/DnaAndMetaData.o
 
 # target to build an object file
-Model/DnaMetaData.cpp.o:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o
-.PHONY : Model/DnaMetaData.cpp.o
+Model/DnaAndMetaData.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o
+.PHONY : Model/DnaAndMetaData.cpp.o
 
-Model/DnaMetaData.i: Model/DnaMetaData.cpp.i
+Model/DnaAndMetaData.i: Model/DnaAndMetaData.cpp.i
 
-.PHONY : Model/DnaMetaData.i
+.PHONY : Model/DnaAndMetaData.i
 
 # target to preprocess a source file
-Model/DnaMetaData.cpp.i:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.i
-.PHONY : Model/DnaMetaData.cpp.i
+Model/DnaAndMetaData.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.i
+.PHONY : Model/DnaAndMetaData.cpp.i
 
-Model/DnaMetaData.s: Model/DnaMetaData.cpp.s
+Model/DnaAndMetaData.s: Model/DnaAndMetaData.cpp.s
 
-.PHONY : Model/DnaMetaData.s
+.PHONY : Model/DnaAndMetaData.s
 
 # target to generate assembly for a file
-Model/DnaMetaData.cpp.s:
-	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.s
-.PHONY : Model/DnaMetaData.cpp.s
+Model/DnaAndMetaData.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.s
+.PHONY : Model/DnaAndMetaData.cpp.s
 
 Model/DnaReader.o: Model/DnaReader.cpp.o
 
@@ -483,6 +510,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DNA"
+	@echo "... Controller/CmdFactory.o"
+	@echo "... Controller/CmdFactory.i"
+	@echo "... Controller/CmdFactory.s"
 	@echo "... Controller/Executable.o"
 	@echo "... Controller/Executable.i"
 	@echo "... Controller/Executable.s"
@@ -498,9 +528,9 @@ help:
 	@echo "... Model/DataCollection.o"
 	@echo "... Model/DataCollection.i"
 	@echo "... Model/DataCollection.s"
-	@echo "... Model/DnaMetaData.o"
-	@echo "... Model/DnaMetaData.i"
-	@echo "... Model/DnaMetaData.s"
+	@echo "... Model/DnaAndMetaData.o"
+	@echo "... Model/DnaAndMetaData.i"
+	@echo "... Model/DnaAndMetaData.s"
 	@echo "... Model/DnaReader.o"
 	@echo "... Model/DnaReader.i"
 	@echo "... Model/DnaReader.s"

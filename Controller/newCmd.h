@@ -7,7 +7,7 @@ class newCmd: public ICmd
 {
     SharedPtr<ICmd> create();
     void help();
-    void runCmd(DataCollection* dnasData, std::vector<std::string> );
+    void runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::string> v);
 
 };
 #endif //EXCELLENTEAM_ELLA_C_DNA_YIRATG_NEWCMD_H

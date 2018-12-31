@@ -1,5 +1,3 @@
-
-
 #include "Parser.h"
 
 std::vector<std::string> Parser::parsing(std::string str)

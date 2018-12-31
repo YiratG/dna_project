@@ -32,5 +32,4 @@ bool AddMotation::operator!=(const string &s) const
 
 Nucleotide &AddMotation::operator[](size_t i)
 {
-    return <#initializer#>;
 }

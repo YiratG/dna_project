@@ -213,18 +213,31 @@ CMakeFiles/DNA.dir/Model/DataCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DNA.dir/Model/DataCollection.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.cpp -o CMakeFiles/DNA.dir/Model/DataCollection.cpp.s
 
-CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o: CMakeFiles/DNA.dir/flags.make
-CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o: ../Model/DnaMetaData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o -c /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaMetaData.cpp
+CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o: CMakeFiles/DNA.dir/flags.make
+CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o: ../Model/DnaAndMetaData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o -c /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.cpp
 
-CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaMetaData.cpp > CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.i
+CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.cpp > CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.i
 
-CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaMetaData.cpp -o CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.s
+CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.cpp -o CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.s
+
+CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: CMakeFiles/DNA.dir/flags.make
+CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Controller/CmdFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o -c /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.cpp
+
+CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.cpp > CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.i
+
+CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.cpp -o CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.s
 
 # Object files for target DNA
 DNA_OBJECTS = \
@@ -240,7 +253,8 @@ DNA_OBJECTS = \
 "CMakeFiles/DNA.dir/Controller/ICmd.cpp.o" \
 "CMakeFiles/DNA.dir/Controller/newCmd.cpp.o" \
 "CMakeFiles/DNA.dir/Model/DataCollection.cpp.o" \
-"CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o"
+"CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o" \
+"CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o"
 
 # External object files for target DNA
 DNA_EXTERNAL_OBJECTS =
@@ -257,10 +271,11 @@ DNA: CMakeFiles/DNA.dir/Model/AddMotation.cpp.o
 DNA: CMakeFiles/DNA.dir/Controller/ICmd.cpp.o
 DNA: CMakeFiles/DNA.dir/Controller/newCmd.cpp.o
 DNA: CMakeFiles/DNA.dir/Model/DataCollection.cpp.o
-DNA: CMakeFiles/DNA.dir/Model/DnaMetaData.cpp.o
+DNA: CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o
+DNA: CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o
 DNA: CMakeFiles/DNA.dir/build.make
 DNA: CMakeFiles/DNA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable DNA"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable DNA"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DNA.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
