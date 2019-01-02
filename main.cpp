@@ -2,6 +2,7 @@
 #include <cstring>
 #include "Model/DnaSequence.h"
 #include "Model/DnaReader.h"
+#include "Controller/Executable.h"
 
 using std::cout;
 
@@ -89,12 +90,13 @@ void TestFileWriting()
 int main()
  {
     //TestCopyCtor();
-    TestAssignment();
+//    TestAssignment();
    // TestSlice();
    // TestPair();
     //TesFileReading();
     //TestFileWriting();
-
+    Executable ex;
+    ex.run();
     return 0;
 
 

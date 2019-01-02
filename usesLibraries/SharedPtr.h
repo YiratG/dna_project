@@ -1,138 +1,196 @@
 #ifndef DNA_SharedPtr_H
 #define DNA_SharedPtr_H
-#include <stdlib.h>
-#include <new>
+#include <cstdlib>
+#include <iostream>
+#include <exception>
 
-#ifdef TESTING
-#define Test_print(str)  std::cout << str << std::endl
-#else
-#define Test_print(str)
-#endif //TESTING
-
-template <typename T>
+template<typename T>
 class SharedPtr
 {
 public:
-    explicit SharedPtr(T* ptr = NULL);
-    SharedPtr(const SharedPtr& other);
+    template<class U>
+    friend class SharedPtr;
+
+    explicit SharedPtr(T *ptr = NULL);
+    SharedPtr(const SharedPtr &other);
     ~SharedPtr();
 
-    SharedPtr& operator=(const SharedPtr& other);
+    template<class U>
+    SharedPtr(const SharedPtr<U> &pt);
 
-    T* operator->() const;
-    T&operator*() const;
-    bool operator==(const SharedPtr& other) const;
-    bool operator!=(const SharedPtr& other) const;
+    template<class U>
+    SharedPtr& operator= (const SharedPtr<U>&);
 
-    T* get() const;
-    size_t* get_count() const;
+    SharedPtr &operator=(const SharedPtr &other);
+    SharedPtr<T> &operator=(T* otherPtr);
+    T &operator*() const;
+    T *operator->() const;
+    bool operator!=(const SharedPtr &other) const;
+    bool operator==(const SharedPtr &other) const;
     operator bool() const;
 
+
+    T *get() const;
+
+
 private:
-    T* m_ptr;
-    size_t* m_count;
+    T *m_ptr;
+    std::size_t *m_refCount;
+
+//    void swap(const SharedPtr &other);
+    void free();
 };
 
-template <typename T>
-SharedPtr<T>::SharedPtr(T *ptr) try
-        : m_ptr(ptr),
-          m_count(new size_t(1))
-{}
-catch(std::bad_alloc& e)
+//==============================Constructor==============================
+template<typename T>
+SharedPtr<T>::SharedPtr(T *ptr)
+try
+        : m_ptr(ptr), m_refCount(new std::size_t(1))
+{
+//    std::cout << "Constructor for Shared Ptr" << std::endl;
+}
+catch (std::bad_alloc&)
 {
     delete ptr;
     throw;
 }
-template <typename T>
-SharedPtr<T>::SharedPtr(const SharedPtr &other)
+
+//==============================C-CTOR===================================
+template<typename T>
+SharedPtr<T>::SharedPtr(const SharedPtr &other):m_ptr(other.m_ptr), m_refCount(other.m_refCount)
 {
-    //Test_print("copy constractor");
-    m_ptr = other.m_ptr;
-    m_count = other.m_count;
-    (*m_count)++;
+    ++*m_refCount;
+}
+template<typename T>
+template<class U>
+inline SharedPtr<T>::SharedPtr(const SharedPtr<U> &pt)
+        :m_ptr(pt.m_ptr),
+         m_refCount(pt.refCount)
+{
+//    std::cout<<"in temp cpy-constructor\n";
+    (*m_refCount)++;
 }
 
-template <typename T>
+//==============================Destructor===============================
+template<typename T>
 SharedPtr<T>::~SharedPtr()
 {
-    //Test_print("distractor");
-    (*m_count)--;
-    if(*m_count == 0)
+    free();
+//    std::cout << "Destructor for Shared Ptr" << std::endl;
+
+}
+//==============================Free ptrs===============================
+template<typename T>
+void SharedPtr<T>::free()
+{
+    if (--*m_refCount == 0)
     {
-        Test_print("SharedPtr :: DTOR - deleted");
-        delete m_ptr;
-        delete m_count;
-    }
-    else
-    {
-        Test_print("SharedPtr :: DTOR - not deleted");
+        delete(m_ptr);
+        delete m_refCount;
+
+        m_refCount = NULL;
+        m_ptr = NULL;
     }
 }
-
-template <typename T>
-SharedPtr<T>& SharedPtr<T>::operator=(const SharedPtr &other)
+//==============================Operator= ===============================
+template<typename T>
+SharedPtr<T> &SharedPtr<T>::operator=(const SharedPtr &other)
 {
-    //Test_print("asigment operator");
-    if(m_ptr)
+    // Avoid self assignment
+    if (this != &other)
     {
-        delete m_ptr;
-        delete m_count;
+        free();
+        m_ptr = other.m_ptr;
+        m_refCount = other.m_refCount;
+        ++*m_refCount;
     }
+    return *this;
+}
+//template<typename T>
+//void SharedPtr<T>::swap(const SharedPtr &other)
+//{
+//       std::swap(m_ptr, other.m_ptr);
+//    std::swap(m_refCount, other.m_refCount);
+//
+//}
+////==============================Operator= ===============================
+//template<typename T>
+//SharedPtr<T> &SharedPtr<T>::operator=(const SharedPtr &other)
+//{
+//
+//        SharedPtr<T>copyOfMe(other);
+//        swap(copyOfMe);
+//}
+//==============================Operator= for ptr ===============================
+template<typename T>
+inline SharedPtr<T> &SharedPtr<T>::operator=(T* otherPtr)
+{
+    // Avoid self assignment
 
-    m_ptr = other.m_ptr;
-    m_count = other.m_count;
-
-    (*m_count)++;
+    free();
+    m_ptr = otherPtr;
+    try
+    {
+        m_refCount = new std::size_t(1);
+    }
+    catch (std::bad_alloc& e)
+    {
+        delete otherPtr;
+        throw;
+    }
 
     return *this;
 }
 
-template <typename T>
-T* SharedPtr<T>::operator->() const
+template<typename T>
+template<class U>
+inline SharedPtr<T> & SharedPtr<T>::operator= (const SharedPtr<U> &other)
 {
-    //Test_print("operator->");
-    return m_ptr;
+//    std::cout<<"in temp assign\n";
+    if (this != &other)
+    {
+        this->release();
+        // Copy the data and reference pointer and increment the reference count
+        m_ptr=other.m_ptr;
+        m_refCount = other.refCount;
+        (*m_refCount)++;
+    }
+    return *this;
 }
-
-template <typename T>
-T& SharedPtr<T>::operator*() const
+//==============================operator bool===============================
+template<typename T>
+inline SharedPtr<T>::operator bool() const
 {
-    //Test_print("operator*");
-    return *m_ptr;
-}
-
-template <typename T>
-bool SharedPtr<T>::operator!=(const SharedPtr &other) const
-{
-    //Test_print("operator!=");
-    return m_ptr != other.m_ptr || m_count != other.m_count;
-}
-
-template <typename T>
-bool SharedPtr<T>::operator==(const SharedPtr &other) const
-{
-    //Test_print("operator==");
-    return m_ptr == other.m_ptr && m_count == other.m_count;
-}
-
-template <typename T>
-T* SharedPtr<T>::get() const
-{
-    //Test_print("get");
-    return m_ptr;
-}
-
-template <typename T>
-size_t * SharedPtr<T>::get_count() const
-{
-    //Test_print("get");
-    return m_count;
-}
-
-template <typename T>
-SharedPtr<T>::operator bool() const
-{
-    //Test_print("bool operator");
     return m_ptr != NULL;
 }
+//==============================operator-> ===============================
+template<typename T>
+inline T *SharedPtr<T>::operator->() const
+{
+    return m_ptr;
+}
+//==============================operator* ===============================
+template<typename T>
+inline T &SharedPtr<T>::operator*() const
+{
+    return *m_ptr;
+}
+//==============================operator!= ===============================
+template<typename T>
+inline bool SharedPtr<T>::operator!=(const SharedPtr &other) const
+{
+    return m_ptr!= other.m_ptr;
+}
+//==============================operator==  ===============================
+template<typename T>
+inline bool SharedPtr<T>::operator==(const SharedPtr &other) const
+{
+    return m_ptr == other.m_ptr;
+}
+//==============================get ptr ===============================
+template<typename T>
+inline T *SharedPtr<T>::get() const {
+    return m_ptr;
+}
+
 #endif //DNA_SharedPtr_H

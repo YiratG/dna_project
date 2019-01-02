@@ -4,3 +4,13 @@ DnaAndMetaData::DnaAndMetaData(size_t id, std::string name, SharedPtr<IDna> DnaS
                                                                                                 m_name(name),
                                                                                                 m_dnaSeq(DnaSeq),
                                                                                                 m_status(staus) {}
+
+string DnaAndMetaData::getName() const
+{
+    return m_name;
+}
+
+size_t DnaAndMetaData::getId() const
+{
+    return m_id;
+}

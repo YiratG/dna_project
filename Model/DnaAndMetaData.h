@@ -9,7 +9,8 @@ class DnaAndMetaData
 {
 public:
     DnaAndMetaData(size_t id, std::string name, SharedPtr<IDna> DnaSeq,char staus ='o');
-    size_t getId();
+    size_t getId() const;
+    string getName() const;
 
 
 private:

@@ -5,7 +5,7 @@ std::string CLI::getInput()
 {
     std::cout << "enter a command :: ";
     std::string s;
-    std::cin >> s;
+    std::getline(std::cin , s);
     return s;
 
 }

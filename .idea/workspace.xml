@@ -12,32 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0086a8ad-7531-4d61-b8bd-9acf1f886d7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/CmdFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/CmdFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/CmdFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/CmdFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/CmdFactory.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Executable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Executable.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Executable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Executable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/ICmd.h" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ICmd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/newCmd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/newCmd.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/newCmd.h" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/newCmd.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/AddMotation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/AddMotation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/AddMotation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/AddMotation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/DataCollection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DataCollection.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/DataCollection.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DataCollection.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/DnaAndMetaData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DnaAndMetaData.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/DnaAndMetaData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DnaAndMetaData.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/View/Parser.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DNA.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/excellenteam-ella-c-dna-YiratG.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/excellenteam-ella-c-dna-YiratG.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usesLibraries/SharedPtr.h" beforeDir="false" afterPath="$PROJECT_DIR$/usesLibraries/SharedPtr.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,29 +42,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="23" />
-          <entry key="h" value="28" />
+          <entry key="cpp" value="31" />
+          <entry key="h" value="34" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="51" />
+          <entry key="ObjectiveC" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1010" />
+          <entry key="cpp" value="1380" />
           <entry key="dummy" value="4" />
-          <entry key="h" value="1178" />
+          <entry key="h" value="1202" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="7" />
-          <entry key="ObjectiveC" value="2188" />
+          <entry key="ObjectiveC" value="2582" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -88,68 +73,21 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/CmdFactory.h">
+        <entry file="file://$PROJECT_DIR$/View/CLI.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#105#119#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/AddMotation.cpp">
+        <entry file="file://$PROJECT_DIR$/Controller/CmdFactory.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/AddMotation.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#54#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usesLibraries/SharedPtr.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1473">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-              <folding>
-                <element signature="e#48#67#0" expanded="true" />
-                <element signature="e#99#153#0" expanded="true" />
-                <element signature="e#211#223#0" expanded="true" />
-                <element signature="e#689#701#0" expanded="true" />
-                <element signature="e#861#873#0" expanded="true" />
-                <element signature="e#1046#1058#0" expanded="true" />
-                <element signature="e#1357#1369#0" expanded="true" />
-                <element signature="e#1650#1662#0" expanded="true" />
-                <element signature="e#1763#1775#0" expanded="true" />
-                <element signature="e#1875#1887#0" expanded="true" />
-                <element signature="e#2055#2067#0" expanded="true" />
-                <element signature="e#2235#2247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/DataCollection.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#114#153#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,47 +96,103 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/DataCollection.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/newCmd.h">
+        <entry file="file://$PROJECT_DIR$/Model/DnaAndMetaData.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/Controller/Executable.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="614" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="614" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/newCmd.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usesLibraries/SharedPtr.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1260">
+              <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding>
+                <element signature="e#48#66#0" expanded="true" />
+                <element signature="e#117#129#0" expanded="true" />
+                <element signature="e#168#177#0" expanded="true" />
+                <element signature="e#316#325#0" expanded="true" />
+                <element signature="e#378#387#0" expanded="true" />
+                <element signature="e#932#944#0" expanded="true" />
+                <element signature="e#1236#1248#0" expanded="true" />
+                <element signature="e#1377#1389#0" expanded="true" />
+                <element signature="e#1398#1407#0" expanded="true" />
+                <element signature="e#1674#1686#0" expanded="true" />
+                <element signature="e#1871#1883#0" expanded="true" />
+                <element signature="e#2136#2148#0" expanded="true" />
+                <element signature="e#2905#2917#0" expanded="true" />
+                <element signature="e#3303#3315#0" expanded="true" />
+                <element signature="e#3324#3333#0" expanded="true" />
+                <element signature="e#3781#3793#0" expanded="true" />
+                <element signature="e#3950#3962#0" expanded="true" />
+                <element signature="e#4110#4122#0" expanded="true" />
+                <element signature="e#4271#4283#0" expanded="true" />
+                <element signature="e#4471#4483#0" expanded="true" />
+                <element signature="e#4668#4680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/AddMotation.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="e#54#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/AddMotation.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/Executable.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="e#51#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/View/CLI.h">
+        <entry file="file://$PROJECT_DIR$/View/Parser.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -220,10 +214,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Model/DnaSequence.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/usesLibraries/SharedPtr.h" />
         <option value="$PROJECT_DIR$/Controller/Parser.cpp" />
         <option value="$PROJECT_DIR$/Controller/Parser.h" />
         <option value="$PROJECT_DIR$/Controller/ICmd.cpp" />
@@ -234,19 +226,21 @@
         <option value="$PROJECT_DIR$/Model/DnaMetaData.h" />
         <option value="$PROJECT_DIR$/Model/IDna.h" />
         <option value="$PROJECT_DIR$/Controller/CmdFactory.h" />
-        <option value="$PROJECT_DIR$/Controller/CmdFactory.cpp" />
-        <option value="$PROJECT_DIR$/View/Parser.cpp" />
         <option value="$PROJECT_DIR$/Controller/ICmd.h" />
-        <option value="$PROJECT_DIR$/Controller/Executable.cpp" />
-        <option value="$PROJECT_DIR$/Controller/Executable.h" />
         <option value="$PROJECT_DIR$/Model/DataCollection.h" />
-        <option value="$PROJECT_DIR$/Model/DnaAndMetaData.cpp" />
-        <option value="$PROJECT_DIR$/Model/DnaAndMetaData.h" />
-        <option value="$PROJECT_DIR$/Model/AddMotation.cpp" />
         <option value="$PROJECT_DIR$/Model/AddMotation.h" />
-        <option value="$PROJECT_DIR$/Model/DataCollection.cpp" />
         <option value="$PROJECT_DIR$/Controller/newCmd.h" />
         <option value="$PROJECT_DIR$/Controller/newCmd.cpp" />
+        <option value="$PROJECT_DIR$/Model/DnaAndMetaData.cpp" />
+        <option value="$PROJECT_DIR$/Model/DnaAndMetaData.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Model/DataCollection.cpp" />
+        <option value="$PROJECT_DIR$/Controller/CmdFactory.cpp" />
+        <option value="$PROJECT_DIR$/Controller/Executable.h" />
+        <option value="$PROJECT_DIR$/Model/AddMotation.cpp" />
+        <option value="$PROJECT_DIR$/usesLibraries/SharedPtr.h" />
+        <option value="$PROJECT_DIR$/Controller/Executable.cpp" />
+        <option value="$PROJECT_DIR$/View/Parser.cpp" />
       </list>
     </option>
   </component>
@@ -256,7 +250,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-365" />
     <option name="y" value="27" />
     <option name="width" value="1731" />
@@ -353,21 +347,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546155836560</updated>
-      <workItem from="1546155838083" duration="35312000" />
+      <workItem from="1546155838083" duration="41388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35312000" />
+    <option name="totallyTimeSpent" value="41388000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="647" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18355946" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.17601547" />
+      <window_info anchor="bottom" id="Messages" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.2512235" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="3" weight="0.43326885" />
@@ -409,13 +404,6 @@
     <entry file="file://$PROJECT_DIR$/Model/DnaReader.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/DnaSequence.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -433,13 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/CLI.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controller/ICmd.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -451,60 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/CmdFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/Parser.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/Executable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#51#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/Executable.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/DnaAndMetaData.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#106#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/DnaAndMetaData.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -525,54 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/CmdFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#105#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/AddMotation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/AddMotation.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="e#54#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usesLibraries/SharedPtr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1473">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#48#67#0" expanded="true" />
-            <element signature="e#99#153#0" expanded="true" />
-            <element signature="e#211#223#0" expanded="true" />
-            <element signature="e#689#701#0" expanded="true" />
-            <element signature="e#861#873#0" expanded="true" />
-            <element signature="e#1046#1058#0" expanded="true" />
-            <element signature="e#1357#1369#0" expanded="true" />
-            <element signature="e#1650#1662#0" expanded="true" />
-            <element signature="e#1763#1775#0" expanded="true" />
-            <element signature="e#1875#1887#0" expanded="true" />
-            <element signature="e#2055#2067#0" expanded="true" />
-            <element signature="e#2235#2247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/DataCollection.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -580,13 +459,6 @@
           <folding>
             <element signature="e#114#153#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/DataCollection.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -609,8 +481,143 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/View/CLI.h">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/DnaAndMetaData.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#106#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/CLI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/CmdFactory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#105#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/CmdFactory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/DnaAndMetaData.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/DataCollection.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/Executable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#51#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/AddMotation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#54#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/AddMotation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usesLibraries/SharedPtr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#48#66#0" expanded="true" />
+            <element signature="e#117#129#0" expanded="true" />
+            <element signature="e#168#177#0" expanded="true" />
+            <element signature="e#316#325#0" expanded="true" />
+            <element signature="e#378#387#0" expanded="true" />
+            <element signature="e#932#944#0" expanded="true" />
+            <element signature="e#1236#1248#0" expanded="true" />
+            <element signature="e#1377#1389#0" expanded="true" />
+            <element signature="e#1398#1407#0" expanded="true" />
+            <element signature="e#1674#1686#0" expanded="true" />
+            <element signature="e#1871#1883#0" expanded="true" />
+            <element signature="e#2136#2148#0" expanded="true" />
+            <element signature="e#2905#2917#0" expanded="true" />
+            <element signature="e#3303#3315#0" expanded="true" />
+            <element signature="e#3324#3333#0" expanded="true" />
+            <element signature="e#3781#3793#0" expanded="true" />
+            <element signature="e#3950#3962#0" expanded="true" />
+            <element signature="e#4110#4122#0" expanded="true" />
+            <element signature="e#4271#4283#0" expanded="true" />
+            <element signature="e#4471#4483#0" expanded="true" />
+            <element signature="e#4668#4680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/Executable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Parser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>

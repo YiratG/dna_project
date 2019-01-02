@@ -1,3 +1,4 @@
+#include <iostream>
 #include "Parser.h"
 
 std::vector<std::string> Parser::parsing(std::string str)
@@ -13,5 +14,13 @@ std::vector<std::string> Parser::parsing(std::string str)
         prev = pos + delim.length();
     }
     while (pos < str.length() && prev < str.length());
+
+
+    for (std::vector<std::string>::const_iterator i = tokens.begin(); i != tokens.end(); ++i)
+    {
+        std::cout << *i << ' ';
+
+    }
+    std::cout << std::endl;
     return tokens;
 }
