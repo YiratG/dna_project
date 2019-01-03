@@ -1,4 +1,5 @@
 #include <cstring>
+#include <sstream>
 #include "DnaSequence.h"
 #include "DnaReader.h"
 #include "DnaWriter.h"
@@ -59,7 +60,7 @@ DnaSequence::DnaSequence(const DnaSequence &other)
 }
 DnaSequence::~DnaSequence()
 {
-    cout<<"I'm deleting myself"<<std::endl;
+//    cout<<"I'm deleting myself"<<std::endl;
     delete [] m_seq;
 }
 
@@ -111,7 +112,7 @@ ostream& operator<<(ostream &os,const DnaSequence &ds)
 {
     for (size_t i = 0; i < ds.m_len ; ++i)
     {
-        os<<ds.m_seq[i];
+        os << ds.m_seq[i];
     }
     return os;
 }
@@ -191,6 +192,16 @@ void DnaSequence::WriteToFile(const char *fileName)
 {
     DnaWriter w(fileName);
     w.DnaWrite(*this);
+}
+
+std::string DnaSequence::getSeqAsString()
+{
+    std::stringstream ss;
+    for (size_t i = 0; i < m_len ; ++i)
+    {
+        ss << m_seq[i];
+    }
+    return ss.str();
 }
 
 

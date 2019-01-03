@@ -18,6 +18,7 @@ public:
     virtual bool operator!=(const string & s) const=0;
     virtual Nucleotide& operator[](size_t i)=0;
 
+    virtual std::string getSeqAsString()=0;
     virtual size_t get_length() const=0;
     virtual void readFromFile(const char * fileName)=0;
     virtual void WriteToFile(const char *fileName)=0;

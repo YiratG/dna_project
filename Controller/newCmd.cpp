@@ -2,26 +2,27 @@
 #include "newCmd.h"
 #include "../Model/DnaSequence.h"
 
-void newCmd::runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::string> v)
+std::string newCmd::runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::string> v)
 {
     if(v.size() < 2)
-        return;
+        return "too few arguments";
 
-    size_t id = dnasData->getIncNum();
-    std::stringstream name;
+    std::string s;
 
     if(v.size() == 2)
     {
-        name << "seq" << id;
+        s = dnasData->generateName();
     }
     else
     {
-        string opName = v[2].substr(1);
-        if (!dnasData->isNameAlreadyUsed(opName))
-            name << opName;
+        s = dnasData->generateName(v[2].substr(1));
     }
 
-    dnasData->addDna(SharedPtr<DnaAndMetaData>(new DnaAndMetaData(id,name.str(),SharedPtr<IDna>(new DnaSequence(v[1])))));
+    size_t id = dnasData->getIncNum();
+    SharedPtr<DnaAndMetaData> newDna(new DnaAndMetaData(id, s, SharedPtr<IDna>(new DnaSequence(v[1]))));
+    dnasData->addDna(newDna);
+
+    return newDna->getDescription();
 }
 
 void newCmd::help()

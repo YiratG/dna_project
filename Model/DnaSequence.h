@@ -26,8 +26,9 @@ public:
     bool operator!=(const char* s) const;
     bool operator!=(const string & s) const;
     Nucleotide& operator[](size_t i);
-    friend ostream& operator<<(ostream& os,const DnaSequence& ds);
 
+    friend ostream& operator<<(ostream& os,const DnaSequence& ds);
+    std::string getSeqAsString();
     size_t get_length() const;
     DnaSequence get_slice(size_t from, size_t to);
 //    DnaSequence pair();

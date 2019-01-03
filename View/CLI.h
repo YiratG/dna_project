@@ -7,6 +7,7 @@ class CLI
 {
 public:
     std::string getInput();
+    void printOutput(std::string s);
 private:
 };
 

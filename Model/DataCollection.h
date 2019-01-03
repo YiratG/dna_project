@@ -17,6 +17,7 @@ public:
     bool isIDAlreadyUsed(size_t id);
     void deleteDna(string name);
     void deleteDna(size_t id);
+    std::string generateName(string name = "seq");
 
 private:
     std::map<string,SharedPtr<DnaAndMetaData> >dataByName;

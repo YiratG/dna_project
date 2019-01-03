@@ -17,6 +17,8 @@ private:
     CLI cli;
     Parser p;
     SharedPtr<DataCollection> dc;
+    std::string s;
+    std::vector<std::string> v;
 
 
 };

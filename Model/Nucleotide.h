@@ -33,6 +33,7 @@ inline Nucleotide::Nucleotide(char c):m_char(ValidChar(c))
 inline Nucleotide::Nucleotide():m_char('A')
 {
 }
+
 inline Nucleotide::operator char()
 {
     return m_char;

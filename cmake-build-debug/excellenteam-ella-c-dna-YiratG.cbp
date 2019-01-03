@@ -102,6 +102,12 @@
 		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.h">
 			<Option target="DNA"/>
 		</Unit>
+		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/LoadCmd.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/LoadCmd.h">
+			<Option target="DNA"/>
+		</Unit>
 		<Unit filename="/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/newCmd.cpp">
 			<Option target="DNA"/>
 		</Unit>

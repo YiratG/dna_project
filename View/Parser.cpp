@@ -16,11 +16,11 @@ std::vector<std::string> Parser::parsing(std::string str)
     while (pos < str.length() && prev < str.length());
 
 
-    for (std::vector<std::string>::const_iterator i = tokens.begin(); i != tokens.end(); ++i)
-    {
-        std::cout << *i << ' ';
+//    for (std::vector<std::string>::const_iterator i = tokens.begin(); i != tokens.end(); ++i)
+//    {
+//        std::cout << *i << ' ';
 
-    }
-    std::cout << std::endl;
+//    }
+//    std::cout << std::endl;
     return tokens;
 }
