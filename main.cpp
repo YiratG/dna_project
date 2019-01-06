@@ -5,6 +5,7 @@
 #include "Controller/Executable.h"
 
 using std::cout;
+using std::endl;
 
 
 void TestCopyCtor() {

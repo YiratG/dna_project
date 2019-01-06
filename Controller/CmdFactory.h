@@ -1,5 +1,5 @@
-#ifndef EXCELLENTEAM_ELLA_C_DNA_YIRATG_CMDFACTORY_H
-#define EXCELLENTEAM_ELLA_C_DNA_YIRATG_CMDFACTORY_H
+#ifndef DNA__CMDFACTORY_H
+#define DNA__CMDFACTORY_H
 
 #include <map>
 #include <string>
@@ -19,4 +19,4 @@ public:
 
 
 
-#endif //EXCELLENTEAM_ELLA_C_DNA_YIRATG_CMDFACTORY_H
+#endif //DNA__CMDFACTORY_H

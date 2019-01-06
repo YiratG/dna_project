@@ -1,6 +1,6 @@
 
-#ifndef DNA_DNAWRITER_H
-#define DNA_WRITER_H
+#ifndef DNA__DNAWRITER_H
+#define DNA__WRITER_H
 #include <fstream>
 #include "DnaSequence.h"
 class DnaWriter {
@@ -17,4 +17,4 @@ private:
 
 
 
-#endif //DNA_WRITER_H
+#endif //DNA__WRITER_H

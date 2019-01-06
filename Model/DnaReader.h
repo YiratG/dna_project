@@ -1,5 +1,5 @@
-#ifndef DNA_READER_H
-#define DNA_READER_H
+#ifndef DNA__READER_H
+#define DNA__READER_H
 #include <fstream>
 #include "DnaSequence.h"
 
@@ -14,4 +14,4 @@ private:
 };
 
 
-#endif //DNA_READER_H
+#endif //DNA__READER_H

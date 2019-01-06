@@ -1,5 +1,5 @@
-#ifndef EXCELLENTEAM_ELLA_C_DNA_YIRATG_ICMD_H
-#define EXCELLENTEAM_ELLA_C_DNA_YIRATG_ICMD_H
+#ifndef DNA__ICMD_H
+#define DNA__ICMD_H
 
 #include "vector"
 #include <string>
@@ -9,6 +9,7 @@
 class ICmd
 {
 public:
+    virtual ~ICmd();
     virtual SharedPtr<ICmd> create()=0;
     virtual void help()=0;
     virtual std::string runCmd(SharedPtr<DataCollection> dnasData,std::vector<std::string> )=0;
@@ -16,4 +17,4 @@ public:
 };
 
 
-#endif //EXCELLENTEAM_ELLA_C_DNA_YIRATG_ICMD_H
+#endif //DNA__ICMD_H

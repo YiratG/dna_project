@@ -1,5 +1,5 @@
-#ifndef EXCELLENTEAM_ELLA_C_DNA_YIRATG_DNAMETADATA_H
-#define EXCELLENTEAM_ELLA_C_DNA_YIRATG_DNAMETADATA_H
+#ifndef DNA__DNAMETADATA_H
+#define DNA__DNAMETADATA_H
 #include <cstring>
 #include <string>
 #include "../usesLibraries/SharedPtr.h"
@@ -24,4 +24,4 @@ private:
 };
 
 
-#endif //EXCELLENTEAM_ELLA_C_DNA_YIRATG_DNAMETADATA_H
+#endif //DNA__DNAMETADATA_H

@@ -19,6 +19,7 @@ size_t DnaAndMetaData::getId() const
 string DnaAndMetaData::getDescription() const
 {
     std::stringstream s;
-    s << "[" << m_id << "] " << m_name << ": " << m_dnaSeq->getSeqAsString();
+    s << "[" << m_id << "] " << m_name << ": ";
+    m_dnaSeq->getSeqAsString(s);
     return s.str();
 }

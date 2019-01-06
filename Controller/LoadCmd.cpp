@@ -34,5 +34,6 @@ std::string LoadCmd::runCmd(SharedPtr<DataCollection> dnasData, std::vector<std:
     DnaReader reader(fileName.c_str());
 
     dnasData->addDna(SharedPtr<DnaAndMetaData>(new DnaAndMetaData(id, s, SharedPtr<IDna>(new DnaSequence(reader.DnaRead())))));
+    return "Done";
 }
 

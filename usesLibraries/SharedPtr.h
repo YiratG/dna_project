@@ -1,5 +1,5 @@
-#ifndef DNA_SharedPtr_H
-#define DNA_SharedPtr_H
+#ifndef DNA__SharedPtr_H
+#define DNA__SharedPtr_H
 #include <cstdlib>
 #include <iostream>
 #include <exception>
@@ -85,7 +85,7 @@ void SharedPtr<T>::free()
 {
     if (--*m_refCount == 0)
     {
-        delete(m_ptr);
+        delete m_ptr;
         delete m_refCount;
 
         m_refCount = NULL;
@@ -193,4 +193,4 @@ inline T *SharedPtr<T>::get() const {
     return m_ptr;
 }
 
-#endif //DNA_SharedPtr_H
+#endif //DNA__SharedPtr_H

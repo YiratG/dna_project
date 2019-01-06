@@ -1,7 +1,8 @@
-#ifndef DNA_NUCLEOTIDE_H
-#define DNA_NUCLEOTIDE_H
+#ifndef DNA__NUCLEOTIDE_H
+#define DNA__NUCLEOTIDE_H
 
 #include <ctype.h>
+#include <iosfwd>
 
 class Nucleotide
 {
@@ -11,7 +12,7 @@ public:
     Nucleotide& operator=(char c);
     operator char();
     char mypair();
-
+//    friend std::ostringstream& operator<<(std::ostringstream& os, const Nucleotide& n );
 private:
     char ValidChar(char c);
 
@@ -38,4 +39,12 @@ inline Nucleotide::operator char()
 {
     return m_char;
 }
-#endif //DNA_NUCLEOTIDE_H
+//
+//std::ostringstream& operator<<(std::ostringstream &os, const Nucleotide& n)
+//{
+//    os << n.m_char;
+//    return os;
+//}
+
+
+#endif //DNA__NUCLEOTIDE_H

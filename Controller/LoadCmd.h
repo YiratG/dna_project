@@ -1,5 +1,5 @@
-#ifndef EXCELLENTEAM_ELLA_C_DNA_YIRATG_LOADCMD_H
-#define EXCELLENTEAM_ELLA_C_DNA_YIRATG_LOADCMD_H
+#ifndef DNA__LOADCMD_H
+#define DNA__LOADCMD_H
 
 
 #include "ICmd.h"
@@ -13,4 +13,4 @@ public:
 };
 
 
-#endif //EXCELLENTEAM_ELLA_C_DNA_YIRATG_LOADCMD_H
+#endif //DNA__LOADCMD_H

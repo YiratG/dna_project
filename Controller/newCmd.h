@@ -1,5 +1,5 @@
-#ifndef EXCELLENTEAM_ELLA_C_DNA_YIRATG_NEWCMD_H
-#define EXCELLENTEAM_ELLA_C_DNA_YIRATG_NEWCMD_H
+#ifndef DNA__NEWCMD_H
+#define DNA__NEWCMD_H
 
 #include "ICmd.h"
 
@@ -10,4 +10,4 @@ class newCmd: public ICmd
     std::string runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::string> v);
 
 };
-#endif //EXCELLENTEAM_ELLA_C_DNA_YIRATG_NEWCMD_H
+#endif //DNA__NEWCMD_H

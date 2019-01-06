@@ -1,6 +1,5 @@
-
-#ifndef DNA_DNASEQUENCE_H
-#define DNA_DNASEQUENCE_H
+#ifndef DNA__DNASEQUENCE_H
+#define DNA__DNASEQUENCE_H
 #include "IDna.h"
 
 
@@ -13,7 +12,7 @@ public:
     DnaSequence(const char* s);
     explicit DnaSequence(const string &s);
     DnaSequence(const DnaSequence& other);
-    ~DnaSequence();
+    virtual ~DnaSequence();
 
     DnaSequence& operator=(const DnaSequence& other);
     DnaSequence& operator=(const char* s);
@@ -27,8 +26,8 @@ public:
     bool operator!=(const string & s) const;
     Nucleotide& operator[](size_t i);
 
-    friend ostream& operator<<(ostream& os,const DnaSequence& ds);
-    std::string getSeqAsString();
+    friend std::ostream& operator<<(std::ostream& os,const DnaSequence& ds);
+    std::stringstream& getSeqAsString(std::stringstream& ss);
     size_t get_length() const;
     DnaSequence get_slice(size_t from, size_t to);
 //    DnaSequence pair();
@@ -62,4 +61,4 @@ inline size_t DnaSequence::get_length() const
 
 
 
-#endif //DNA_DNASEQUENCE_H
+#endif //DNA__DNASEQUENCE_H

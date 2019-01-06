@@ -5,7 +5,7 @@
 #include "DnaWriter.h"
 
 using std::cout;
-
+using std::ostream;
 
 void DnaSequence::initDna(const char *str)
 {
@@ -194,14 +194,13 @@ void DnaSequence::WriteToFile(const char *fileName)
     w.DnaWrite(*this);
 }
 
-std::string DnaSequence::getSeqAsString()
+std::stringstream& DnaSequence::getSeqAsString(stringstream& ss)
 {
-    std::stringstream ss;
     for (size_t i = 0; i < m_len ; ++i)
     {
         ss << m_seq[i];
     }
-    return ss.str();
+    return ss;
 }
 
 
