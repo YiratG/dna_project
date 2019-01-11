@@ -420,6 +420,33 @@ Model/DnaWriter.cpp.s:
 	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DnaWriter.cpp.s
 .PHONY : Model/DnaWriter.cpp.s
 
+Model/IDna.o: Model/IDna.cpp.o
+
+.PHONY : Model/IDna.o
+
+# target to build an object file
+Model/IDna.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/IDna.cpp.o
+.PHONY : Model/IDna.cpp.o
+
+Model/IDna.i: Model/IDna.cpp.i
+
+.PHONY : Model/IDna.i
+
+# target to preprocess a source file
+Model/IDna.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/IDna.cpp.i
+.PHONY : Model/IDna.cpp.i
+
+Model/IDna.s: Model/IDna.cpp.s
+
+.PHONY : Model/IDna.s
+
+# target to generate assembly for a file
+Model/IDna.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/IDna.cpp.s
+.PHONY : Model/IDna.cpp.s
+
 Model/Nucleotide.o: Model/Nucleotide.cpp.o
 
 .PHONY : Model/Nucleotide.o
@@ -570,6 +597,9 @@ help:
 	@echo "... Model/DnaWriter.o"
 	@echo "... Model/DnaWriter.i"
 	@echo "... Model/DnaWriter.s"
+	@echo "... Model/IDna.o"
+	@echo "... Model/IDna.i"
+	@echo "... Model/IDna.s"
 	@echo "... Model/Nucleotide.o"
 	@echo "... Model/Nucleotide.i"
 	@echo "... Model/Nucleotide.s"

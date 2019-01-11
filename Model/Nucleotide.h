@@ -2,17 +2,25 @@
 #define DNA__NUCLEOTIDE_H
 
 #include <ctype.h>
-#include <iosfwd>
+#include <iostream>
 
 class Nucleotide
 {
 public:
-    Nucleotide();
-    Nucleotide(char c);
+    explicit Nucleotide();
+    explicit Nucleotide(char c);
+
     Nucleotide& operator=(char c);
-    operator char();
+    Nucleotide& operator= (const Nucleotide& nuc);
+
+    //    operator char();
     char mypair();
-//    friend std::ostringstream& operator<<(std::ostringstream& os, const Nucleotide& n );
+
+    bool operator == (const Nucleotide &other);
+    bool operator!= (const Nucleotide &other);
+
+    friend std::ostream& operator<<(std::ostream& os, const Nucleotide& n );
+
 private:
     char ValidChar(char c);
 
@@ -27,24 +35,13 @@ inline char Nucleotide::ValidChar(char c)
     return c;
 }
 
-inline Nucleotide::Nucleotide(char c):m_char(ValidChar(c))
-{
-}
 
-inline Nucleotide::Nucleotide():m_char('A')
-{
-}
-
-inline Nucleotide::operator char()
-{
-    return m_char;
-}
-//
-//std::ostringstream& operator<<(std::ostringstream &os, const Nucleotide& n)
+//inline Nucleotide::operator char()
 //{
-//    os << n.m_char;
-//    return os;
+//    return m_char;
 //}
+//
+
 
 
 #endif //DNA__NUCLEOTIDE_H

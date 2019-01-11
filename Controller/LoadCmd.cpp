@@ -6,9 +6,9 @@ SharedPtr<ICmd> LoadCmd::create()
     return SharedPtr<ICmd>();
 }
 
-void LoadCmd::help()
+std::string LoadCmd::help()
 {
-
+    return " load filename";
 }
 
 std::string LoadCmd::runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::string> v)

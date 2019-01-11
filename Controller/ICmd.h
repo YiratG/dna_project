@@ -11,7 +11,7 @@ class ICmd
 public:
     virtual ~ICmd();
     virtual SharedPtr<ICmd> create()=0;
-    virtual void help()=0;
+    virtual std::string help()=0;
     virtual std::string runCmd(SharedPtr<DataCollection> dnasData,std::vector<std::string> )=0;
 
 };

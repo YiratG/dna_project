@@ -11,6 +11,8 @@ CmdFactory.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.h
 newCmd.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/newCmd.h
+LoadCmd.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/LoadCmd.h
 
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.h
 map
@@ -38,6 +40,10 @@ vector
 ../Model/DataCollection.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h
 
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.cpp
+ICmd.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.h
+
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.h
 vector
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/vector
@@ -48,9 +54,33 @@ string
 ../Model/DataCollection.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h
 
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/LoadCmd.cpp
+LoadCmd.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/LoadCmd.h
+../Model/DnaReader.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.h
+
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/LoadCmd.h
+ICmd.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.h
+
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/newCmd.cpp
+sstream
+-
+newCmd.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/newCmd.h
+../Model/DnaSequence.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
+
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/newCmd.h
 ICmd.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.h
+
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.cpp
+sstream
+-
+DataCollection.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h
 
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h
 ../usesLibraries/SharedPtr.h
@@ -62,6 +92,12 @@ map
 IDna.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
 
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.cpp
+sstream
+-
+DnaAndMetaData.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.h
+
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.h
 cstring
 -
@@ -72,13 +108,43 @@ string
 IDna.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
 
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.cpp
+DnaReader.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.h
+
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.h
 fstream
 -
 DnaSequence.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
 
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.cpp
+cstring
+-
+sstream
+-
+DnaSequence.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
+DnaReader.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.h
+DnaWriter.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.h
+
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
+IDna.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
+
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.cpp
+DnaWriter.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.h
+
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.h
+fstream
+-
+DnaSequence.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
+
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.cpp
 IDna.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
 
@@ -89,9 +155,21 @@ iostream
 -
 stdio.h
 -
+../usesLibraries/SharedPtr.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
+
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.cpp
+Nucleotide.h
+/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
+stdio.h
+-
+cassert
+-
 
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
 ctype.h
+-
+iostream
 -
 
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/View/CLI.h
@@ -117,8 +195,10 @@ Controller/Executable.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/Executable.h
 
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
-stdlib.h
+cstdlib
 -
-new
+iostream
+-
+exception
 -
 

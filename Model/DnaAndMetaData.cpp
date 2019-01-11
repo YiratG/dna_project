@@ -20,6 +20,11 @@ string DnaAndMetaData::getDescription() const
 {
     std::stringstream s;
     s << "[" << m_id << "] " << m_name << ": ";
-    m_dnaSeq->getSeqAsString(s);
+    size_t len = m_dnaSeq->get_length();
+    for (size_t i=0; i<len && i<40; ++i )
+    {
+        s << m_dnaSeq->operator[](i);
+    }
+//    m_dnaSeq->getSeqAsString(s);
     return s.str();
 }

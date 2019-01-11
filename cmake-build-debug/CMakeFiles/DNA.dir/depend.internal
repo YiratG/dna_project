@@ -5,6 +5,7 @@ CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.cpp
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/CmdFactory.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/LoadCmd.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/newCmd.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.h
@@ -31,6 +32,17 @@ CMakeFiles/DNA.dir/Controller/ICmd.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
+CMakeFiles/DNA.dir/Controller/LoadCmd.cpp.o
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/LoadCmd.cpp
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/LoadCmd.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
 CMakeFiles/DNA.dir/Controller/newCmd.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/newCmd.cpp
@@ -43,10 +55,6 @@ CMakeFiles/DNA.dir/Controller/newCmd.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
 CMakeFiles/DNA.dir/Model/AddMotation.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/AddMotation.cpp
- /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/AddMotation.h
- /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
- /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
- /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
 CMakeFiles/DNA.dir/Model/DataCollection.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.cpp
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h
@@ -66,6 +74,7 @@ CMakeFiles/DNA.dir/Model/DnaReader.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
 CMakeFiles/DNA.dir/Model/DnaSequence.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.cpp
@@ -73,12 +82,19 @@ CMakeFiles/DNA.dir/Model/DnaSequence.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
 CMakeFiles/DNA.dir/Model/DnaWriter.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.cpp
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
+CMakeFiles/DNA.dir/Model/IDna.cpp.o
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.cpp
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
+ /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
 CMakeFiles/DNA.dir/Model/Nucleotide.cpp.o
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.cpp
  /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h

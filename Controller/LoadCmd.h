@@ -8,7 +8,7 @@ class LoadCmd: public ICmd
 {
 public:
     SharedPtr<ICmd> create();
-    void help();
+    std::string help();
     std::string runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::string> v);
 };
 

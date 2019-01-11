@@ -36,18 +36,18 @@ void TestAssignment() {
     }
 }
 
-void TestSlice() {
-    cout << "test slice " << endl;
-    try {
-        DnaSequence ds("ACCcTGGTAGCt");
-        DnaSequence slice;
-        slice = ds.get_slice(3, 6);
-        cout << "slice:" << slice << endl;
-    }
-    catch (const char *ex) {
-        cout << ex << endl;
-    }
-}
+//void TestSlice() {
+//    cout << "test slice " << endl;
+//    try {
+//        DnaSequence ds("ACCcTGGTAGCt");
+//        DnaSequence slice;
+//        slice = ds.get_slice(3, 6);
+//        cout << "slice:" << slice << endl;
+//    }
+//    catch (const char *ex) {
+//        cout << ex << endl;
+//    }
+//}
 
 //void TestPair() {
 //    cout << "test pair " << endl;

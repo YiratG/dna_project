@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaReader.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaSequence.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaWriter.cpp.o"
+  "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/IDna.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/Nucleotide.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/View/CLI.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/View/CLI.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/View/Parser.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/View/Parser.cpp.o"

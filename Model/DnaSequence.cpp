@@ -9,9 +9,8 @@ using std::ostream;
 
 void DnaSequence::initDna(const char *str)
 {
-    m_seq= validStr(str);
-    m_len=strlen(str);
-
+    m_seq = validStr(str);
+    m_len = strlen(str);
 }
 
 Nucleotide* DnaSequence::validStr(const char *str) const
@@ -35,10 +34,6 @@ Nucleotide* DnaSequence::validStr(const char *str) const
     }
     return arr;
 }
-DnaSequence::DnaSequence()
-{
-    m_seq=NULL;
-}
 
 DnaSequence::DnaSequence(const char* seq)
 {
@@ -50,34 +45,34 @@ DnaSequence::DnaSequence(const string & seq)
     initDna(seq.c_str());
 }
 
-DnaSequence::DnaSequence(const DnaSequence &other)
-{
-    m_len = other.m_len;
-    m_seq = new Nucleotide[m_len];
-    for (size_t i = 0; i < m_len; ++i) {
-        m_seq[i] = other.m_seq[i];
-    }
-}
+//DnaSequence::DnaSequence(const DnaSequence &other)
+//{
+//    m_len = other.m_len;
+//    m_seq = new Nucleotide[m_len];
+//    for (size_t i = 0; i < m_len; ++i) {
+//        m_seq[i] = other.m_seq[i];
+//    }
+//}
 DnaSequence::~DnaSequence()
 {
 //    cout<<"I'm deleting myself"<<std::endl;
     delete [] m_seq;
 }
 
-DnaSequence& DnaSequence:: operator=(const DnaSequence& other)
-{
-    if ((this != &other)&&(m_seq!=NULL)) {
-        delete[] m_seq;
-    }
-
-    m_len = other.m_len;
-    m_seq = new Nucleotide[m_len];
-    for (size_t i = 0; i < m_len; ++i)
-    {
-        m_seq[i] = other.m_seq[i];
-    }
-    return *this;
-}
+//DnaSequence& DnaSequence:: operator=(const DnaSequence& other)
+//{
+//    if ((this != &other)&&(m_seq!=NULL)) {
+//        delete[] m_seq;
+//    }
+//
+//    m_len = other.m_len;
+//    m_seq = new Nucleotide[m_len];
+//    for (size_t i = 0; i < m_len; ++i)
+//    {
+//        m_seq[i] = other.m_seq[i];
+//    }
+//    return *this;
+//}
 DnaSequence& DnaSequence::operator=(const char* s)
 {
     Nucleotide *arr=validStr(s);
@@ -92,21 +87,21 @@ DnaSequence& DnaSequence::operator=(const string &s)
     (*this)=s.c_str();
     return *this;
 }
-bool DnaSequence:: operator==(const DnaSequence& other)const
-{
-    if(m_len != other.m_len)
-        return false;
-    for (size_t i = m_len-1; i >=0 ; --i)
-    {
-        if(m_seq[i] != other.m_seq[i])
-            return false;
-    }
-    return true;
-}
-bool DnaSequence::operator!=(const DnaSequence& other) const
-{
-    return !(*this == other);
-}
+//bool DnaSequence:: operator==(const DnaSequence& other)const
+//{
+//    if(m_len != other.m_len)
+//        return false;
+//    for (size_t i = m_len-1; i >=0 ; --i)
+//    {
+//        if(m_seq[i] != other.m_seq[i])
+//            return false;
+//    }
+//    return true;
+//}
+//bool DnaSequence::operator!=(const DnaSequence& other) const
+//{
+//    return !(*this == other);
+//}
 
 ostream& operator<<(ostream &os,const DnaSequence &ds)
 {
@@ -118,37 +113,37 @@ ostream& operator<<(ostream &os,const DnaSequence &ds)
 }
 
 
+//
+//bool DnaSequence::operator==(const char *s) const
+//{
+//    if(m_len != strlen(s))
+//        return false;
+//    for (size_t i = m_len-1; i >=0 ; --i)
+//    {
+//        if(m_seq[i] != s[i])
+//            return false;
+//    }
+//    return true;
+//}
 
-bool DnaSequence::operator==(const char *s) const
-{
-    if(m_len != strlen(s))
-        return false;
-    for (size_t i = m_len-1; i >=0 ; --i)
-    {
-        if(m_seq[i] != s[i])
-            return false;
-    }
-    return true;
-}
+//bool DnaSequence::operator==(const string &s) const
+//{
+//    return (*this == s.c_str());
+//}
+//
+//bool DnaSequence::operator!=(const char *s) const
+//{
+//    return !(*this == s);
+//}
+//
+//bool DnaSequence::operator!=(const string &s) const
+//{
+//    return !(*this == s.c_str());
+//}
 
-bool DnaSequence::operator==(const string &s) const
-{
-    return (*this == s.c_str());
-}
-
-bool DnaSequence::operator!=(const char *s) const
-{
-    return !(*this == s);
-}
-
-bool DnaSequence::operator!=(const string &s) const
-{
-    return !(*this == s.c_str());
-}
-
-DnaSequence DnaSequence::get_slice(size_t from, size_t to) {
-    return DnaSequence(*this,from,to);
-}
+//DnaSequence DnaSequence::get_slice(size_t from, size_t to) {
+//    return DnaSequence(*this,from,to);
+//}
 
 DnaSequence::DnaSequence(DnaSequence &other, size_t from, size_t to)
 {
@@ -194,7 +189,7 @@ void DnaSequence::WriteToFile(const char *fileName)
     w.DnaWrite(*this);
 }
 
-std::stringstream& DnaSequence::getSeqAsString(stringstream& ss)
+std::ostream& DnaSequence::getSeqAsString(ostream& ss)
 {
     for (size_t i = 0; i < m_len ; ++i)
     {
@@ -203,6 +198,17 @@ std::stringstream& DnaSequence::getSeqAsString(stringstream& ss)
     return ss;
 }
 
+Nucleotide& DnaSequence::operator[] (size_t indx)
+{
+    return m_seq[indx];
+}
 
+const Nucleotide& DnaSequence:: operator[] (size_t indx) const
+{
+    return m_seq[indx];
+}
 
-
+DnaSequence::DnaSequence()
+{
+    m_seq = NULL;
+}
