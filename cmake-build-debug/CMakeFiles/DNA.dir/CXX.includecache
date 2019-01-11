@@ -76,12 +76,6 @@ newCmd.h
 ICmd.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/ICmd.h
 
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.cpp
-sstream
--
-DataCollection.h
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h
-
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.h
 ../usesLibraries/SharedPtr.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
@@ -92,12 +86,6 @@ map
 IDna.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
 
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.cpp
-sstream
--
-DnaAndMetaData.h
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.h
-
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.h
 cstring
 -
@@ -107,10 +95,6 @@ string
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
 IDna.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
-
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.cpp
-DnaReader.h
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.h
 
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.h
 fstream
@@ -134,19 +118,11 @@ DnaWriter.h
 IDna.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
 
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.cpp
-DnaWriter.h
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.h
-
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaWriter.h
 fstream
 -
 DnaSequence.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
-
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.cpp
-IDna.h
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
 
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/IDna.h
 Nucleotide.h
@@ -157,14 +133,6 @@ stdio.h
 -
 ../usesLibraries/SharedPtr.h
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
-
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.cpp
-Nucleotide.h
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
-stdio.h
--
-cassert
--
 
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/Nucleotide.h
 ctype.h
@@ -181,18 +149,6 @@ vector
 -
 string
 -
-
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/main.cpp
-iostream
--
-cstring
--
-Model/DnaSequence.h
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaSequence.h
-Model/DnaReader.h
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.h
-Controller/Executable.h
-/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/Executable.h
 
 /home/yirat/Documents/excellenteam-ella-c-dna-YiratG/usesLibraries/SharedPtr.h
 cstdlib

@@ -16,5 +16,7 @@ public:
 
 };
 
+bool IsValidSeqName(string seqName);
+bool IsValidFileName(string fileName);
 
 #endif //DNA__ICMD_H

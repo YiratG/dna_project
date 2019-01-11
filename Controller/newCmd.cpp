@@ -15,7 +15,7 @@ std::string newCmd::runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::
     }
     else
     {
-        if(v[2][0] != '@')
+        if(!IsValidSeqName(v[2]))
             return "invalid sequence name\n";
 
         name = dnasData->generateName(v[2].substr(1));
