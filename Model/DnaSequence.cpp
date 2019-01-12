@@ -178,16 +178,16 @@ DnaSequence::DnaSequence(DnaSequence &other, size_t from, size_t to)
 //    return temp;
 //}
 
-void DnaSequence::readFromFile(const char *fileName)
-{
-    DnaReader r(fileName);
-    *this=r.DnaRead();
-}
-void DnaSequence::WriteToFile(const char *fileName)
-{
-    DnaWriter w(fileName);
-    w.DnaWrite(*this);
-}
+//void DnaSequence::readFromFile(const char *fileName)
+//{
+//    DnaReader r(fileName);
+//    *this=r.DnaRead();
+//}
+//void DnaSequence::WriteToFile(const char *fileName)
+//{
+//    DnaWriter w(fileName);
+//    w.DnaWrite(*this);
+//}
 
 std::ostream& DnaSequence::getSeqAsString(ostream& ss)
 {

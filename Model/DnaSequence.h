@@ -29,8 +29,8 @@ public:
     size_t get_length() const;
 //    DnaSequence get_slice(size_t from, size_t to);
 //    DnaSequence pair();
-    void readFromFile(const char * fileName);
-    void WriteToFile(const char *fileName);
+//    void readFromFile(const char * fileName);
+//    void WriteToFile(const char *fileName);
 
 private:
     void initDna(const char * str);

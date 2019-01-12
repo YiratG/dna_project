@@ -9,7 +9,6 @@ void DataCollection::addDna(SharedPtr<DnaAndMetaData> d)
 {
     dataByName[d->getName()]=d;
     dataById[d->getId()]=d;
-//    dataByName.insert(std::pair<std::string,SharedPtr<DnaAndMetaData> >(d->getName(),d));
 }
 
 size_t DataCollection::getIncNum()
@@ -23,14 +22,14 @@ void DataCollection::deleteDna(string name)
 //    dataById.erase(id);
 }
 
-bool DataCollection::isIDAlreadyUsed(size_t id)
+bool DataCollection::isIDExists(size_t id)
 {
-    return dataById.count(id)? true:false;
+    return (dataById.count(id)!=0)? true:false;
 }
 
-bool DataCollection::isNameAlreadyUsed(string name)
+bool DataCollection::isNameExists(string name)
 {
-    return dataByName.count(name)? true:false;
+    return (dataByName.count(name)!=0)? true:false;
 }
 
 void DataCollection::deleteDna(const size_t id)
@@ -41,16 +40,26 @@ void DataCollection::deleteDna(const size_t id)
 
 std::string DataCollection::generateName(string name)
 {
-    if((!isNameAlreadyUsed(name)) && (name !="seq"))
+    if((!isNameExists(name)) && (name !="seq"))
         return name;
     size_t n = 1;
     std::stringstream s ;
     s << name << n;
-    while(isNameAlreadyUsed(s.str()))
+    while(isNameExists(s.str()))
     {
         s.str("");
         s << name << ++n;
     }
     return s.str();
+}
+
+SharedPtr<DnaAndMetaData> DataCollection::getDnaById(size_t id)
+{
+    return dataById[id];
+}
+
+SharedPtr<DnaAndMetaData> DataCollection::getDnaByName(string name)
+{
+    return dataByName[name];
 }
 

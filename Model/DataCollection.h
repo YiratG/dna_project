@@ -13,11 +13,13 @@ public:
     DataCollection();
     size_t getIncNum();
     void addDna(SharedPtr<DnaAndMetaData> d);
-    bool isNameAlreadyUsed(string name);
-    bool isIDAlreadyUsed(size_t id);
+    SharedPtr<DnaAndMetaData> getDnaByName(string name);
+    SharedPtr<DnaAndMetaData> getDnaById(size_t id);
+    bool isNameExists(string name);
+    bool isIDExists(size_t id);
     void deleteDna(string name);
     void deleteDna(size_t id);
-    std::string generateName(string name = "seq");
+    string generateName(string name = "seq");
 
 private:
     std::map<string,SharedPtr<DnaAndMetaData> >dataByName;

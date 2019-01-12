@@ -63,31 +63,31 @@ void TestAssignment() {
 //    }
 //}
 
-void TesFileReading() {
-    cout << "test read from file " << endl;
-    try {
-        DnaSequence ds;
-        ds.readFromFile("DNAFile.txt");
-        cout << "from file:  " << ds << endl;
-    }
-    catch (const char *ex) {
-        cout << ex << endl;
-    }
-}
-
-void TestFileWriting()
-{
-    cout << "test write to file" << endl;
-    try
-    {
-        DnaSequence ds("AAAGGGTTTCCC");
-        ds.WriteToFile("DNAFile2.txt");
-
-    }
-    catch (const char *ex) {
-        cout << ex << endl;
-    }
-}
+//void TesFileReading() {
+//    cout << "test read from file " << endl;
+//    try {
+//        DnaSequence ds;
+//        ds.readFromFile("DNAFile.txt");
+//        cout << "from file:  " << ds << endl;
+//    }
+//    catch (const char *ex) {
+//        cout << ex << endl;
+//    }
+//}
+//
+//void TestFileWriting()
+//{
+//    cout << "test write to file" << endl;
+//    try
+//    {
+//        DnaSequence ds("AAAGGGTTTCCC");
+//        ds.WriteToFile("DNAFile2.txt");
+//
+//    }
+//    catch (const char *ex) {
+//        cout << ex << endl;
+//    }
+//}
 int main()
  {
     //TestCopyCtor();

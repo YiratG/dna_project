@@ -7,18 +7,20 @@ DnaReader::DnaReader(const char *fileName)
         throw "Error by opening file";
     
 }
+
 DnaReader::~DnaReader()
 {
-infile.close();
+    infile.close();
 }
 
 
 DnaSequence DnaReader::DnaRead()
 {
-std::string seq;
-while(!infile.eof())
-    {
-        infile >> seq;
-    }
-return DnaSequence(seq);
+    std::string seq;
+
+    while(!infile.eof())
+        {
+            infile >> seq;
+        }
+    return DnaSequence(seq);
 }

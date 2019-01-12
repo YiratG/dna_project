@@ -231,6 +231,33 @@ Controller/LoadCmd.cpp.s:
 	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/LoadCmd.cpp.s
 .PHONY : Controller/LoadCmd.cpp.s
 
+Controller/SaveCmd.o: Controller/SaveCmd.cpp.o
+
+.PHONY : Controller/SaveCmd.o
+
+# target to build an object file
+Controller/SaveCmd.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o
+.PHONY : Controller/SaveCmd.cpp.o
+
+Controller/SaveCmd.i: Controller/SaveCmd.cpp.i
+
+.PHONY : Controller/SaveCmd.i
+
+# target to preprocess a source file
+Controller/SaveCmd.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.i
+.PHONY : Controller/SaveCmd.cpp.i
+
+Controller/SaveCmd.s: Controller/SaveCmd.cpp.s
+
+.PHONY : Controller/SaveCmd.s
+
+# target to generate assembly for a file
+Controller/SaveCmd.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.s
+.PHONY : Controller/SaveCmd.cpp.s
+
 Controller/newCmd.o: Controller/newCmd.cpp.o
 
 .PHONY : Controller/newCmd.o
@@ -576,6 +603,9 @@ help:
 	@echo "... Controller/LoadCmd.o"
 	@echo "... Controller/LoadCmd.i"
 	@echo "... Controller/LoadCmd.s"
+	@echo "... Controller/SaveCmd.o"
+	@echo "... Controller/SaveCmd.i"
+	@echo "... Controller/SaveCmd.s"
 	@echo "... Controller/newCmd.o"
 	@echo "... Controller/newCmd.i"
 	@echo "... Controller/newCmd.s"

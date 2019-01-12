@@ -8,7 +8,7 @@ public:
 
     DnaWriter(const char *fileName);
     ~DnaWriter();
-    void DnaWrite( DnaSequence& ds);
+    void DnaWrite(SharedPtr<IDna> ds);
 private:
     std::ofstream outfile;
 

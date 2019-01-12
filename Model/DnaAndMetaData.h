@@ -4,6 +4,7 @@
 #include <string>
 #include "../usesLibraries/SharedPtr.h"
 #include "IDna.h"
+#include "DnaSequence.h"
 
 class DnaAndMetaData
 {
@@ -12,6 +13,8 @@ public:
     size_t getId() const;
     string getName() const;
     string getDescription()const;
+    SharedPtr<IDna> getDnaSeq()const;
+
 
 
 private:

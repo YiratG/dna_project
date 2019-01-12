@@ -1,5 +1,6 @@
 #include <sstream>
 #include "DnaAndMetaData.h"
+#include "DnaSequence.h"
 
 DnaAndMetaData::DnaAndMetaData(size_t id, std::string name, SharedPtr<IDna> DnaSeq, char staus):m_id(id),
                                                                                                 m_name(name),
@@ -27,4 +28,9 @@ string DnaAndMetaData::getDescription() const
     }
 //    m_dnaSeq->getSeqAsString(s);
     return s.str();
+}
+
+SharedPtr<IDna> DnaAndMetaData::getDnaSeq() const
+{
+    return m_dnaSeq;
 }

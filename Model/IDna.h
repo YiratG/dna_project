@@ -21,8 +21,6 @@ public:
 
     virtual std::ostream& getSeqAsString(std::ostream& ss)=0;
     virtual size_t get_length() const=0;
-    virtual void readFromFile(const char * fileName)=0;
-    virtual void WriteToFile(const char *fileName)=0;
 };
 
 
