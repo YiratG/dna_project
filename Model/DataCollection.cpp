@@ -63,3 +63,14 @@ SharedPtr<DnaAndMetaData> DataCollection::getDnaByName(string name)
     return dataByName[name];
 }
 
+string DataCollection::getAllDataDescription()
+{
+    std::stringstream dataDes;
+    std::map<size_t, SharedPtr<DnaAndMetaData> >::iterator itr;
+    for (itr = dataById.begin(); itr != dataById.end(); ++itr)
+    {
+        dataDes << itr->second->getStatus() << " " << itr->second->getDescription() << std::endl;
+    }
+    return dataDes.str();
+}
+

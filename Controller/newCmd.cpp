@@ -2,6 +2,8 @@
 #include "newCmd.h"
 #include "../Model/DnaSequence.h"
 
+bool newCmd::registerToFactory = CmdFactory::registerToFactory("new",newCmd::create);
+
 std::string newCmd::runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::string> v)
 {
     std::string name;
@@ -42,5 +44,5 @@ std::string newCmd::help()
 
 SharedPtr<ICmd> newCmd::create()
 {
-    return SharedPtr<ICmd>();
+    return SharedPtr<ICmd>(new newCmd);
 }

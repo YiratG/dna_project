@@ -18,7 +18,6 @@ std::string SaveCmd::runCmd(SharedPtr<DataCollection> dnasData, std::vector<std:
         return "invalid file name\n";
     }
 
-    std:: string s;
     std:: string seq;
     SharedPtr<DnaAndMetaData> dnaSequence;
 
@@ -43,11 +42,14 @@ std::string SaveCmd::runCmd(SharedPtr<DataCollection> dnasData, std::vector<std:
         }
 
     }
+//ToDo to check what map returns if value not exiats
 
     if(!dnaSequence)
         return "invalid sequence name or id\n";
 
-    DnaWriter writer(v[1].c_str());
+    std::stringstream fileName;
+    fileName << v[1].substr(1)<<".rawdna";
+    DnaWriter writer(fileName.str().c_str());
 
     writer.DnaWrite(dnaSequence->getDnaSeq());
 

@@ -20,6 +20,7 @@ public:
     void deleteDna(string name);
     void deleteDna(size_t id);
     string generateName(string name = "seq");
+    string getAllDataDescription();
 
 private:
     std::map<string,SharedPtr<DnaAndMetaData> >dataByName;

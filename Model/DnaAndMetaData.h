@@ -13,6 +13,7 @@ public:
     size_t getId() const;
     string getName() const;
     string getDescription()const;
+    char getStatus()const;
     SharedPtr<IDna> getDnaSeq()const;
 
 

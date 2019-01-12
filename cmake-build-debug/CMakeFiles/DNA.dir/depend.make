@@ -5,9 +5,10 @@ CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Controller/CmdFactory.cpp
 CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Controller/CmdFactory.h
 CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Controller/ICmd.h
 CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Controller/LoadCmd.h
-CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Controller/newCmd.h
+CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Controller/SaveCmd.h
 CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Model/DataCollection.h
 CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Model/DnaAndMetaData.h
+CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Model/DnaSequence.h
 CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Model/IDna.h
 CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../Model/Nucleotide.h
 CMakeFiles/DNA.dir/Controller/CmdFactory.cpp.o: ../usesLibraries/SharedPtr.h
@@ -18,6 +19,7 @@ CMakeFiles/DNA.dir/Controller/Executable.cpp.o: ../Controller/Executable.h
 CMakeFiles/DNA.dir/Controller/Executable.cpp.o: ../Controller/ICmd.h
 CMakeFiles/DNA.dir/Controller/Executable.cpp.o: ../Model/DataCollection.h
 CMakeFiles/DNA.dir/Controller/Executable.cpp.o: ../Model/DnaAndMetaData.h
+CMakeFiles/DNA.dir/Controller/Executable.cpp.o: ../Model/DnaSequence.h
 CMakeFiles/DNA.dir/Controller/Executable.cpp.o: ../Model/IDna.h
 CMakeFiles/DNA.dir/Controller/Executable.cpp.o: ../Model/Nucleotide.h
 CMakeFiles/DNA.dir/Controller/Executable.cpp.o: ../View/CLI.h
@@ -28,6 +30,7 @@ CMakeFiles/DNA.dir/Controller/ICmd.cpp.o: ../Controller/ICmd.cpp
 CMakeFiles/DNA.dir/Controller/ICmd.cpp.o: ../Controller/ICmd.h
 CMakeFiles/DNA.dir/Controller/ICmd.cpp.o: ../Model/DataCollection.h
 CMakeFiles/DNA.dir/Controller/ICmd.cpp.o: ../Model/DnaAndMetaData.h
+CMakeFiles/DNA.dir/Controller/ICmd.cpp.o: ../Model/DnaSequence.h
 CMakeFiles/DNA.dir/Controller/ICmd.cpp.o: ../Model/IDna.h
 CMakeFiles/DNA.dir/Controller/ICmd.cpp.o: ../Model/Nucleotide.h
 CMakeFiles/DNA.dir/Controller/ICmd.cpp.o: ../usesLibraries/SharedPtr.h
@@ -43,6 +46,18 @@ CMakeFiles/DNA.dir/Controller/LoadCmd.cpp.o: ../Model/IDna.h
 CMakeFiles/DNA.dir/Controller/LoadCmd.cpp.o: ../Model/Nucleotide.h
 CMakeFiles/DNA.dir/Controller/LoadCmd.cpp.o: ../usesLibraries/SharedPtr.h
 
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../Controller/ICmd.h
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../Controller/SaveCmd.cpp
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../Controller/SaveCmd.h
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../Model/DataCollection.h
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../Model/DnaAndMetaData.h
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../Model/DnaSequence.h
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../Model/DnaWriter.h
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../Model/IDna.h
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../Model/Nucleotide.h
+CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o: ../usesLibraries/SharedPtr.h
+
+CMakeFiles/DNA.dir/Controller/newCmd.cpp.o: ../Controller/CmdFactory.h
 CMakeFiles/DNA.dir/Controller/newCmd.cpp.o: ../Controller/ICmd.h
 CMakeFiles/DNA.dir/Controller/newCmd.cpp.o: ../Controller/newCmd.cpp
 CMakeFiles/DNA.dir/Controller/newCmd.cpp.o: ../Controller/newCmd.h
@@ -58,12 +73,14 @@ CMakeFiles/DNA.dir/Model/AddMotation.cpp.o: ../Model/AddMotation.cpp
 CMakeFiles/DNA.dir/Model/DataCollection.cpp.o: ../Model/DataCollection.cpp
 CMakeFiles/DNA.dir/Model/DataCollection.cpp.o: ../Model/DataCollection.h
 CMakeFiles/DNA.dir/Model/DataCollection.cpp.o: ../Model/DnaAndMetaData.h
+CMakeFiles/DNA.dir/Model/DataCollection.cpp.o: ../Model/DnaSequence.h
 CMakeFiles/DNA.dir/Model/DataCollection.cpp.o: ../Model/IDna.h
 CMakeFiles/DNA.dir/Model/DataCollection.cpp.o: ../Model/Nucleotide.h
 CMakeFiles/DNA.dir/Model/DataCollection.cpp.o: ../usesLibraries/SharedPtr.h
 
 CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o: ../Model/DnaAndMetaData.cpp
 CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o: ../Model/DnaAndMetaData.h
+CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o: ../Model/DnaSequence.h
 CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o: ../Model/IDna.h
 CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o: ../Model/Nucleotide.h
 CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o: ../usesLibraries/SharedPtr.h

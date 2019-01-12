@@ -26,11 +26,15 @@ string DnaAndMetaData::getDescription() const
     {
         s << m_dnaSeq->operator[](i);
     }
-//    m_dnaSeq->getSeqAsString(s);
     return s.str();
 }
 
 SharedPtr<IDna> DnaAndMetaData::getDnaSeq() const
 {
     return m_dnaSeq;
+}
+
+char DnaAndMetaData::getStatus() const
+{
+    return m_status;
 }
