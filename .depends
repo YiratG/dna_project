@@ -1,0 +1,100 @@
+main.o: main.cpp Model/DnaSequence.h Model/IDna.h Model/Nucleotide.h \
+ Model/../usesLibraries/SharedPtr.h Model/DnaReader.h Model/DnaSequence.h \
+ Controller/Executable.h Controller/../View/Parser.h \
+ Controller/../View/CLI.h Controller/../Model/DataCollection.h \
+ Controller/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/DnaAndMetaData.h \
+ Controller/../Model/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/IDna.h \
+ Controller/../Model/../Model/DnaSequence.h Controller/../Model/IDna.h
+AddMotation.o: Model/AddMotation.cpp
+DnaSequence.o: Model/DnaSequence.cpp Model/DnaSequence.h Model/IDna.h \
+ Model/Nucleotide.h Model/../usesLibraries/SharedPtr.h Model/DnaReader.h \
+ Model/DnaWriter.h
+DnaReader.o: Model/DnaReader.cpp Model/DnaReader.h Model/DnaSequence.h \
+ Model/IDna.h Model/Nucleotide.h Model/../usesLibraries/SharedPtr.h
+IDna.o: Model/IDna.cpp Model/IDna.h Model/Nucleotide.h \
+ Model/../usesLibraries/SharedPtr.h
+Nucleotide.o: Model/Nucleotide.cpp Model/Nucleotide.h
+DnaAndMetaData.o: Model/DnaAndMetaData.cpp Model/DnaAndMetaData.h \
+ Model/../usesLibraries/SharedPtr.h Model/IDna.h Model/Nucleotide.h \
+ Model/DnaSequence.h
+DataCollection.o: Model/DataCollection.cpp Model/DataCollection.h \
+ Model/../usesLibraries/SharedPtr.h Model/../Model/DnaAndMetaData.h \
+ Model/../Model/../usesLibraries/SharedPtr.h Model/../Model/IDna.h \
+ Model/../Model/Nucleotide.h Model/../Model/DnaSequence.h Model/IDna.h
+DnaWriter.o: Model/DnaWriter.cpp Model/DnaWriter.h Model/DnaSequence.h \
+ Model/IDna.h Model/Nucleotide.h Model/../usesLibraries/SharedPtr.h
+Parser.o: View/Parser.cpp View/Parser.h
+CLI.o: View/CLI.cpp View/CLI.h
+newCmd.o: Controller/newCmd.cpp Controller/newCmd.h Controller/ICmd.h \
+ Controller/../usesLibraries/SharedPtr.h \
+ Controller/../Model/DataCollection.h \
+ Controller/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/DnaAndMetaData.h \
+ Controller/../Model/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/IDna.h \
+ Controller/../Model/../Model/Nucleotide.h \
+ Controller/../Model/../Model/DnaSequence.h Controller/../Model/IDna.h \
+ Controller/CmdFactory.h Controller/../Model/DnaSequence.h
+Executable.o: Controller/Executable.cpp Controller/Executable.h \
+ Controller/../View/Parser.h Controller/../View/CLI.h \
+ Controller/../Model/DataCollection.h \
+ Controller/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/DnaAndMetaData.h \
+ Controller/../Model/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/IDna.h \
+ Controller/../Model/../Model/Nucleotide.h \
+ Controller/../Model/../Model/DnaSequence.h Controller/../Model/IDna.h \
+ Controller/CmdFactory.h Controller/ICmd.h \
+ Controller/../usesLibraries/SharedPtr.h
+SaveCmd.o: Controller/SaveCmd.cpp Controller/SaveCmd.h Controller/ICmd.h \
+ Controller/../usesLibraries/SharedPtr.h \
+ Controller/../Model/DataCollection.h \
+ Controller/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/DnaAndMetaData.h \
+ Controller/../Model/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/IDna.h \
+ Controller/../Model/../Model/Nucleotide.h \
+ Controller/../Model/../Model/DnaSequence.h Controller/../Model/IDna.h \
+ Controller/../Model/DnaWriter.h Controller/../Model/DnaSequence.h \
+ Controller/CmdFactory.h
+ICmd.o: Controller/ICmd.cpp Controller/ICmd.h \
+ Controller/../usesLibraries/SharedPtr.h \
+ Controller/../Model/DataCollection.h \
+ Controller/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/DnaAndMetaData.h \
+ Controller/../Model/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/IDna.h \
+ Controller/../Model/../Model/Nucleotide.h \
+ Controller/../Model/../Model/DnaSequence.h Controller/../Model/IDna.h
+ListCmd.o: Controller/ListCmd.cpp Controller/ListCmd.h Controller/ICmd.h \
+ Controller/../usesLibraries/SharedPtr.h \
+ Controller/../Model/DataCollection.h \
+ Controller/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/DnaAndMetaData.h \
+ Controller/../Model/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/IDna.h \
+ Controller/../Model/../Model/Nucleotide.h \
+ Controller/../Model/../Model/DnaSequence.h Controller/../Model/IDna.h \
+ Controller/CmdFactory.h
+LoadCmd.o: Controller/LoadCmd.cpp Controller/LoadCmd.h Controller/ICmd.h \
+ Controller/../usesLibraries/SharedPtr.h \
+ Controller/../Model/DataCollection.h \
+ Controller/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/DnaAndMetaData.h \
+ Controller/../Model/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/IDna.h \
+ Controller/../Model/../Model/Nucleotide.h \
+ Controller/../Model/../Model/DnaSequence.h Controller/../Model/IDna.h \
+ Controller/../Model/DnaReader.h Controller/../Model/DnaSequence.h \
+ Controller/CmdFactory.h
+CmdFactory.o: Controller/CmdFactory.cpp Controller/CmdFactory.h \
+ Controller/ICmd.h Controller/../usesLibraries/SharedPtr.h \
+ Controller/../Model/DataCollection.h \
+ Controller/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/DnaAndMetaData.h \
+ Controller/../Model/../Model/../usesLibraries/SharedPtr.h \
+ Controller/../Model/../Model/IDna.h \
+ Controller/../Model/../Model/Nucleotide.h \
+ Controller/../Model/../Model/DnaSequence.h Controller/../Model/IDna.h

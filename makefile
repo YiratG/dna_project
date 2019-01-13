@@ -1,5 +1,5 @@
 
-TARGET=dna
+TARGET=DNA
 
 # all .cpp files in this directory are my sources
 SOURCES=$(wildcard *.cpp) $(wildcard Model/*.cpp) $(wildcard View/*.cpp) $(wildcard Controller/*.cpp) $(wildcard usesLibraries/*.cpp)

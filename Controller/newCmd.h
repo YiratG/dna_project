@@ -7,11 +7,10 @@
 class newCmd: public ICmd
 {
 public:
-    static SharedPtr<ICmd> create();
     std::string help();
     std::string runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::string> v);
 
 private:
-    static bool registerToFactory;
+    static bool reg;
 };
 #endif //DNA__NEWCMD_H

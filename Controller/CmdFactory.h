@@ -10,18 +10,17 @@ using std::string;
 class CmdFactory
 {
 public:
-    CmdFactory(const std::map<string, SharedPtr<ICmd> > &cmdMap);
 
-    static bool registerToFactory(std::string, SharedPtr<ICmd> (* func)());
-    static SharedPtr<ICmd> getCmd(std::string);
+    static CmdFactory* getInstance();
+    bool registerToFactory(std::string, SharedPtr<ICmd> cmd);
+    SharedPtr<ICmd> getCmd(std::string);
 
 private:
-    static std::map<string,SharedPtr<ICmd> > initMap();
-    static std::map<string,SharedPtr<ICmd> > cmdMap;
-
+    CmdFactory();
+    static CmdFactory* instance;
+    std::map<string,SharedPtr<ICmd> > cmdMap;
 
 };
-
 
 
 

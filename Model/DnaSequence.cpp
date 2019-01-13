@@ -16,13 +16,11 @@ void DnaSequence::initDna(const char *str)
 Nucleotide* DnaSequence::validStr(const char *str) const
 {
     size_t len=strlen(str);
-    if(len%3 != 0)
-    {
-        throw "invalide DNA length";
-    }
-    Nucleotide *arr=new Nucleotide[len];
 
-    try {
+    Nucleotide *arr = new Nucleotide[len];
+
+    try
+    {
         for (size_t i = 0; i < len; ++i) {
             arr[i] = str[i];
         }

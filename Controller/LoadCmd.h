@@ -10,6 +10,9 @@ public:
     SharedPtr<ICmd> create();
     std::string help();
     std::string runCmd(SharedPtr<DataCollection> dnasData, std::vector<std::string> v);
+
+private:
+    static bool reg;
 };
 
 

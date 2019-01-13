@@ -8,7 +8,7 @@ void Executable::run()
     {
         s = cli.getInput();
         v = p.parsing(s);
-        SharedPtr<ICmd> ptr =(CmdFactory::getCmd(v[0]));
+        SharedPtr<ICmd> ptr =(CmdFactory::getInstance()->getCmd(v[0]));
         if(ptr)
         {
             string feedback = ptr->runCmd(dc,v);

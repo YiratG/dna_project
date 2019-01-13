@@ -5,8 +5,12 @@
 
 class ListCmd : public ICmd
 {
+public:
     virtual std::string help();
     virtual std::string runCmd(SharedPtr<DataCollection> dnasData,std::vector<std::string> );
+
+private:
+    static bool reg;
 };
 
 

@@ -38,3 +38,8 @@ char DnaAndMetaData::getStatus() const
 {
     return m_status;
 }
+
+void DnaAndMetaData::setStatus(char c)
+{
+    m_status = c;
+}

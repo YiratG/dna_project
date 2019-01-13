@@ -1,6 +1,9 @@
 #include "SaveCmd.h"
 #include "../Model/DnaWriter.h"
+#include "CmdFactory.h"
 #include <sstream>
+
+bool SaveCmd::reg = CmdFactory::getInstance()->registerToFactory("save",SharedPtr<ICmd> (new SaveCmd));
 
 string SaveCmd::help()
 {
@@ -42,18 +45,29 @@ std::string SaveCmd::runCmd(SharedPtr<DataCollection> dnasData, std::vector<std:
         }
 
     }
-//ToDo to check what map returns if value not exiats
+
+    //ToDo to check what map returns if value not exiats
 
     if(!dnaSequence)
         return "invalid sequence name or id\n";
-
     std::stringstream fileName;
-    fileName << v[1].substr(1)<<".rawdna";
+
+    if(v.size() == 3)
+    {
+        fileName << v[2];
+    }
+    else
+    {
+        fileName << dnaSequence->getName()<<".rawdna";
+
+    }
+
     DnaWriter writer(fileName.str().c_str());
 
     writer.DnaWrite(dnaSequence->getDnaSeq());
+    dnaSequence->setStatus('-');
 
-//    ToDo add try and catch for Dna creation!!!
+    //    ToDo add try and catch for Dna creation!!!
 
 
     return "file saved";

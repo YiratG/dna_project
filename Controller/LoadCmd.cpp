@@ -1,5 +1,8 @@
 #include "LoadCmd.h"
 #include "../Model/DnaReader.h"
+#include "CmdFactory.h"
+
+bool LoadCmd::reg = CmdFactory::getInstance()->registerToFactory("load",SharedPtr<ICmd> (new LoadCmd));
 
 SharedPtr<ICmd> LoadCmd::create()
 {

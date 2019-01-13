@@ -14,6 +14,7 @@ public:
     string getName() const;
     string getDescription()const;
     char getStatus()const;
+    void setStatus(char c);
     SharedPtr<IDna> getDnaSeq()const;
 
 
