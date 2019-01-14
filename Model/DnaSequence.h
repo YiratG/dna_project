@@ -22,10 +22,10 @@ public:
 //    bool operator!=(const char* s) const;
 //    bool operator!=(const string & s) const;
     Nucleotide& operator[](size_t i);
-    const Nucleotide& operator[] (size_t indx) const;
+    const Nucleotide operator[] (size_t indx) const;
 
     friend std::ostream& operator<<(std::ostream& os,const DnaSequence& ds);
-    std::ostream& getSeqAsString(std::ostream& ss);
+//    std::ostream& getSeqAsString(std::ostream& ss);
     size_t get_length() const;
 //    DnaSequence get_slice(size_t from, size_t to);
 //    DnaSequence pair();
@@ -41,9 +41,6 @@ private:
     size_t m_len;
 
 };
-
-
-
 
 inline size_t DnaSequence::get_length() const
 {

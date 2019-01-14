@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/SaveCmd.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Controller/SaveCmd.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Controller/newCmd.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Controller/newCmd.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/AddMotation.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/AddMotation.cpp.o"
+  "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DNAPair.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DNAPair.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DataCollection.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DataCollection.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaAndMetaData.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaAndMetaData.cpp.o"
   "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/Model/DnaReader.cpp" "/home/yirat/Documents/excellenteam-ella-c-dna-YiratG/cmake-build-debug/CMakeFiles/DNA.dir/Model/DnaReader.cpp.o"

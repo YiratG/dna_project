@@ -339,6 +339,33 @@ Model/AddMotation.cpp.s:
 	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/AddMotation.cpp.s
 .PHONY : Model/AddMotation.cpp.s
 
+Model/DNAPair.o: Model/DNAPair.cpp.o
+
+.PHONY : Model/DNAPair.o
+
+# target to build an object file
+Model/DNAPair.cpp.o:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DNAPair.cpp.o
+.PHONY : Model/DNAPair.cpp.o
+
+Model/DNAPair.i: Model/DNAPair.cpp.i
+
+.PHONY : Model/DNAPair.i
+
+# target to preprocess a source file
+Model/DNAPair.cpp.i:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DNAPair.cpp.i
+.PHONY : Model/DNAPair.cpp.i
+
+Model/DNAPair.s: Model/DNAPair.cpp.s
+
+.PHONY : Model/DNAPair.s
+
+# target to generate assembly for a file
+Model/DNAPair.cpp.s:
+	$(MAKE) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/Model/DNAPair.cpp.s
+.PHONY : Model/DNAPair.cpp.s
+
 Model/DataCollection.o: Model/DataCollection.cpp.o
 
 .PHONY : Model/DataCollection.o
@@ -642,6 +669,9 @@ help:
 	@echo "... Model/AddMotation.o"
 	@echo "... Model/AddMotation.i"
 	@echo "... Model/AddMotation.s"
+	@echo "... Model/DNAPair.o"
+	@echo "... Model/DNAPair.i"
+	@echo "... Model/DNAPair.s"
 	@echo "... Model/DataCollection.o"
 	@echo "... Model/DataCollection.i"
 	@echo "... Model/DataCollection.s"

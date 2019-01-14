@@ -14,7 +14,7 @@ public:
     Nucleotide& operator= (const Nucleotide& nuc);
 
     //    operator char();
-    char mypair();
+    Nucleotide mypair();
 
     bool operator == (const Nucleotide &other);
     bool operator!= (const Nucleotide &other);

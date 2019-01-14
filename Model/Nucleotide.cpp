@@ -44,7 +44,7 @@ bool Nucleotide::operator != (const Nucleotide &other)
     return(m_char != other.m_char);
 }
 
-char Nucleotide::mypair()
+Nucleotide Nucleotide::mypair()
 {
     char c;
     switch(m_char)
@@ -60,5 +60,5 @@ char Nucleotide::mypair()
         default:
             assert(true);
     }
-    return c;
+    return Nucleotide(c);
 }

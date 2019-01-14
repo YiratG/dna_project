@@ -186,22 +186,22 @@ DnaSequence::DnaSequence(DnaSequence &other, size_t from, size_t to)
 //    DnaWriter w(fileName);
 //    w.DnaWrite(*this);
 //}
-
-std::ostream& DnaSequence::getSeqAsString(ostream& ss)
-{
-    for (size_t i = 0; i < m_len ; ++i)
-    {
-        ss << m_seq[i];
-    }
-    return ss;
-}
+//
+//std::ostream& DnaSequence::getSeqAsString(ostream& ss)
+//{
+//    for (size_t i = 0; i < m_len ; ++i)
+//    {
+//        ss << m_seq[i];
+//    }
+//    return ss;
+//}
 
 Nucleotide& DnaSequence::operator[] (size_t indx)
 {
     return m_seq[indx];
 }
 
-const Nucleotide& DnaSequence:: operator[] (size_t indx) const
+const Nucleotide DnaSequence:: operator[] (size_t indx) const
 {
     return m_seq[indx];
 }

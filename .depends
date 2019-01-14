@@ -25,6 +25,8 @@ DataCollection.o: Model/DataCollection.cpp Model/DataCollection.h \
  Model/../Model/Nucleotide.h Model/../Model/DnaSequence.h Model/IDna.h
 DnaWriter.o: Model/DnaWriter.cpp Model/DnaWriter.h Model/DnaSequence.h \
  Model/IDna.h Model/Nucleotide.h Model/../usesLibraries/SharedPtr.h
+DNAPair.o: Model/DNAPair.cpp Model/DNAPair.h \
+ Model/../usesLibraries/SharedPtr.h Model/IDna.h Model/Nucleotide.h
 Parser.o: View/Parser.cpp View/Parser.h
 CLI.o: View/CLI.cpp View/CLI.h
 newCmd.o: Controller/newCmd.cpp Controller/newCmd.h Controller/ICmd.h \
